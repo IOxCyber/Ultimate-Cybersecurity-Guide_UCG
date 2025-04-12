@@ -47,27 +47,28 @@
 ### ✅ Web Servers Nikto Can Scan
 - Nikto doesn’t care much about what the server is, as long as it serves HTTP/S. It's protocol-agnostic to some extent.
 ```
-Web Server	Supported	Notes
-Apache	✅ Yes	Most common target, tons of tests
-Nginx	✅ Yes	Less verbose results unless misconfigured
-Microsoft IIS	✅ Yes	Identifies IIS version, default files, and vulnerabilities
-Lighttpd	✅ Yes	Some specific checks available
-Tomcat (Java)	✅ Yes	Checks for manager console, default creds
-WebDAV	✅ Yes	Methods like PUT, DELETE, PROPFIND
-Python SimpleHTTP	✅ Yes	Identifies lack of auth, indexing
-Jetty	✅ Yes	Limited checks, but still recognized
-Node.js (Express)	✅ Yes	Detects headers, exposes default files
-Weblogic/WebSphere	✅ Yes	Version + outdated components if visible
-Custom/Embedded (IoT)	✅ Yes	If it speaks HTTP, Nikto can scream at it
+Web Server	     | Supported	| Notes
+Apache	✅     | Yes	      | Most common target, tons of tests
+Nginx	✅        | Yes      	| Less verbose results unless misconfigured
+Microsoft IIS ✅| Yes   | 	Identifies IIS version, default files, and vulnerabilities
+Lighttpd	✅     | Yes         | 	Some specific checks available
+Tomcat (Java)✅  | Yes     | 	Checks for manager console, default creds
+
+WebDAV            | 	✅ Yes | 	Methods like PUT, DELETE, PROPFIND
+Python SimpleHTTP | 	✅ Yes | 	Identifies lack of auth, indexing
+Jetty             | 	✅ Yes | Limited checks, but still recognized
+Node.js (Express) | 	✅ Yes | 	Detects headers, exposes default files
+Weblogic/WebSpher | 	✅ Yes | 	Version + outdated components if visible
+Custom/Embedded (IoT)	 | ✅ Yes | 	If it speaks HTTP, Nikto can scream at it
 
 ```
 
 ### ❌ What It Does NOT Do Well:
 ```
-Limitations	Description
-🔇 HTTPS-only misconfigs	May not catch deep cert issues unless combined with tools like SSLyze
-🚫 API Scanning (REST/JSON)	Nikto doesn't parse JSON well — better use tools like Postman, Burp, or ZAP
-🔒 Authenticated Pages	Nikto does not handle login forms or tokens
-🧠 Logic-based attacks	Doesn’t follow redirects or complex logic
-🔍 Stealth Mode	It’s LOUD. Not suitable for stealth engagements (no IDS evasion)
+Limitations	 | Description
+🔇 HTTPS-only misconfigs	 | May not catch deep cert issues unless combined with tools like SSLyze
+🚫 API Scanning (REST/JSON)	 | Nikto doesn't parse JSON well — better use tools like Postman, Burp, or ZAP
+🔒 Authenticated Pages | 	Nikto does not handle login forms or tokens
+🧠 Logic-based attacks | 	Doesn’t follow redirects or complex logic
+🔍 Stealth Mode	 | It’s LOUD. Not suitable for stealth engagements (no IDS evasion)
 ```

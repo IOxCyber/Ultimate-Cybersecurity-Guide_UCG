@@ -62,17 +62,6 @@ Essential learning guide in CyberSec.
 2. [C|EH in Bullets](https://github.com/undergroundwires/CEH-in-bullet-points)
 
 ## Security Tools
--  Intercepts HTTP/S traffic between browser and server for manual and automated testing.
-- 
-- Nessus
-- NMAP
-- [Qualys Scanning Tool](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Qualys)
-- 
-
-Sweet Bud ✨, stripping it down to the essentials! Here’s the clean, no-fluff version: 👇  
-
----
-
 1. [Burp-Suite](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools):
 - **Definition:** Web proxy to intercept, analyze, and modify HTTP/S traffic.
 - **Best For:** Web, API, Mobile (API Traffic Analysis).  
@@ -85,18 +74,15 @@ Sweet Bud ✨, stripping it down to the essentials! Here’s the clean, no-fluff
 - **Definition:** Vulnerability scanner to detect misconfigurations and security gaps.  
 - **Best For:** Network, Web, Infrastructure, Cloud Security.  
 
----
-
 4. Nmap (Network Mapper):
 - **Definition:** Network scanner to map open ports, services, and hosts.  
 - **Best For:** Network Recon, Web Enumeration, API Recon.  
 
----
-
-5. Qualys Vulnerability Scanner:
+5. [Qualys Scanning Tool](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Qualys):
 - **Definition:** Cloud-based scanner for identifying vulnerabilities and ensuring compliance.  
 - **Best For:** Web, Cloud, Network, Compliance Audits.  
 
+6. Wireshark: Intercepts HTTP/S traffic between browser and server for manual and automated testing.
 
 ---
 ---

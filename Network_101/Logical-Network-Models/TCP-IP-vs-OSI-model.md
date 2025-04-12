@@ -22,10 +22,10 @@ Application Layer
 
 | Layer Name         | Function                   | Protocols / Data Units                   | Devices Used                     | Common Attacks                        |
 |--------------------|----------------------------|------------------------------------------|----------------------------------|----------------------------------------|
-| **Physical (L1)**  | Transmit, Signals, Binary **Bits (0,1)**          | Cables, RF, Fiber, IEEE 802.11, 802.3    | Hubs, Repeaters, NIC             | Wiretapping, Signal Jamming, Sniffing |
-| **Data Link (L2)** | Physical Addressing, Error Checking **Frame**         | Ethernet, ARP, PPP, MAC                  | Switches, NIC                    | MAC Spoofing, ARP Poisoning, STP Attacks |
-| **Network (L3)**   | Logical Addressing **Path Determination**     | IP, ICMP, IGMP, ARP                      | Routers (L3)                    | IP Spoofing, MITM, Routing Attacks    |
-| **Transport (L4)** | End-to-End Communication **Reliable Delivery** & TCP 3-way handshake     | TCP, UDP, SCTP                           | Gateways, Firewalls (L4-aware)  | SYN Flood, UDP Flood, Port Scanning   |
-| **Session (L5)**   | **Session Control**        | NetBIOS, PPTP, SIP, RTP                  | Gateways, Proxies               | Session Hijacking, DoS                |
-| **Presentation (L6)** | **Data Representation/Encryption**     | SSL/TLS, JPEG, MPEG, ASCII, Encryption   | None specific (Software layer)  | SSL Stripping, Malware in file formats |
-| **Application (L7)** | **User Interface**       | HTTP, DNS, FTP, SMTP, SSH, POP3, SNMP    | Application Servers, Proxies    | XSS, SQLi, CSRF, Buffer Overflow       |
+| **Physical (L1)**  | Transmit, Signals, Binary          | Cables, RF, Fiber, IEEE 802.11, 802.3 / `Bits`   | Hubs, `Repeaters`, NIC             | Wiretapping, Signal Jamming, Sniffing |
+| **Data Link (L2)** | Physical Addressing, Error Checking         | `Ethernet, ARP, MAC`, PPP  / `Frames`                | `Switches L2`, NIC                    | MAC Spoofing, ARP Poisoning, STP Attacks |
+| **Network (L3)**   | Logical Addressing **Path Determination**     | `IP, ICMP, ARP`, IGMP / `Packets`                     | `Routers (L3)`                    | IP Spoofing, MITM, Routing Attacks    |
+| **Transport (L4)** | End-to-End, Reliable Communication & 'TCP 3-way handshake' | `TCP, UDP`, SCTP / `Segment (TCP) / Datagram (UDP)` | `Gateways, Firewalls (L4)` | SYN Flood, UDP Flood, Port Scanning   |
+| **Session (L5)**   | Session Control       | NetBIOS, PPTP, SIP, RTP / `Data`  | Gateways, Proxies               | Session Hijacking, DoS                |
+| **Presentation (L6)** | Data Representation/Encryption    | SSL/TLS, JPEG, MPEG, ASCII, Encryption / `Data` | None specific (Software layer)  | SSL Stripping, Malware in file formats |
+| **Application (L7)** | User Interface       | HTTP, DNS, FTP, SMTP, SSH, POP3, SNMP / `Data`    | Application Servers, Proxies    | XSS, SQLi, CSRF, Buffer Overflow       |

@@ -1,4 +1,5 @@
-# Nikto Web Scanner: An open-source web server scanner that performs comprehensive tests against web servers for dangerous files, outdated versions, and security issues.
+# Nikto Web Scanner: 
+- An `open-source web server scanner` that performs comprehensive tests against web servers for dangerous files, outdated versions, and security issues.
 
 ---
 

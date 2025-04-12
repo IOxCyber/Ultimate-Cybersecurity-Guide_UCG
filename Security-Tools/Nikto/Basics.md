@@ -22,7 +22,27 @@ nikto -h http://192.168.56.101
 nikto -h http://192.168.56.101:8080
 ```
 
-### 3. Save Output
+- Multiple Sites at once: `nikto -h targets.txt`
+- Follow Redirects: `nikto -h http://target.com -followredirects 1`
+- Use Tuning Option (Specific Test Type):
+```
+Tuning Value	Test Type
+1	Interesting File/CGI
+2	Misconfigurations
+3	Information Disclosure
+4	Injection (XSS/Command)
+5	Remote File Retrieval
+6	Denial of Service
+7	Remote Execution
+8	SQL Injection
+9	Authentication Bypass
+
+You can combine like: -Tuning 12389
+
+eg. nikto -h http://192.168.56.101 -Tuning 123
+```
+
+### 3. Save Output: csv, txt, XML, html
 ```bash
 nikto -h http://192.168.56.101 -o output.txt -Format txt
 ```

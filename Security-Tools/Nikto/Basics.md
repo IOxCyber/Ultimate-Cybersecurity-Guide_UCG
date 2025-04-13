@@ -14,6 +14,7 @@
 
 ### 1. Basic Web Scan
 ```bash
+-h (specify /host)
 nikto -h http://192.168.56.101
 ```
 
@@ -24,7 +25,7 @@ nikto -h http://192.168.56.101:8080
 
 - Multiple Sites at once: `nikto -h targets.txt`
 - Follow Redirects: `nikto -h http://target.com -followredirects 1`
-- Use Tuning Option (Specific Test Type):
+## Use Tuning Option (Specific Test Type):
 ```
 Tuning Value	Test Type
 1	Interesting File/CGI

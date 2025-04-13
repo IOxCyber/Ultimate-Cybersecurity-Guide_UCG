@@ -13,7 +13,7 @@ Essential learning guide in CyberSec.
 - [Active-Dir](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/AD-ActiveDirectory.md)
 - [GET v POST](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/GET-vs-POST.md)
 
-- [HTTP Request & Response](https://github.com/IOxCyber/CyberEssentials/blob/main/Network_101/Protocols-Related/HTTP-in-Depth.md)
+- [HTTP Request, Response, Methods](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/c15501dbc57f9d7ce04a7aa235cbd172bf9776ff/Network_101/Protocols-Related)
 - [Site v Origin & Cookies](https://github.com/IOxCyber/CyberWeb-Concepts/blob/main/CyDev-Concepts/Cookies-Site-Origin.md)
 
 - [All About Session](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All-About-Session)

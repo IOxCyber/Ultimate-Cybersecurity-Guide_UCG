@@ -70,8 +70,8 @@ Essential learning guide in CyberSec.
 - **Definition:** Exploitation framework to identify, exploit, and validate system vulnerabilities.  
 - **Best For:** Web, Network, API, Application, Post-Exploitation.  
 
-3. Nessus:  
-- **Definition:** Vulnerability scanner to detect misconfigurations and security gaps.  
+3. Nessus: Vulnerability scanner
+- **Definition:** To detect misconfigurations and security gaps System-level (OS, services, ports, packages), CVE-based scans for known vulns
 - **Best For:** Network, Web, Infrastructure, Cloud Security.  
 
 4. Nmap (Network Mapper):
@@ -85,6 +85,9 @@ Essential learning guide in CyberSec.
 6. Wireshark: Intercepts HTTP/S traffic between browser and server for manual and automated testing.
 
 7. Nikto: [Web Server Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/1345b42b71d968bebf411cc23460ce83a348ebf2/Security-Tools/Nikto):
+- Detect misconfigurations, outdated software, and exposed files in internal networks, dev/test environments, or legacy systems.
+- Best for initial recon and hygiene checks before deeper analysis with tools like Burp or Nessus.
+
 ---
 ---
 

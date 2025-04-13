@@ -84,6 +84,7 @@ Essential learning guide in CyberSec.
 
 6. Wireshark: Intercepts HTTP/S traffic between browser and server for manual and automated testing.
 
+7. Nikto: [Web Server Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/1345b42b71d968bebf411cc23460ce83a348ebf2/Security-Tools/Nikto):
 ---
 ---
 

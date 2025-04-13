@@ -43,7 +43,10 @@ You can combine like: -Tuning 12389
 eg. nikto -h http://192.168.56.101 -Tuning 123
 ```
 
-### 3. Save Output: csv, txt, XML, html
+### 3. Save Output: csv, txt, XML, HTML
+
+![image](https://github.com/user-attachments/assets/df1d5cc4-3292-4a1e-8e11-d16b2eb5e18e)
+
 ```bash
 nikto -h http://192.168.56.101 -o output.txt -Format txt
 ```

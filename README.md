@@ -82,7 +82,9 @@ Essential learning guide in CyberSec.
 - **Definition:** Cloud-based scanner for identifying vulnerabilities and ensuring compliance.  
 - **Best For:** Web, Cloud, Network, Compliance Audits.  
 
-6. Wireshark: Intercepts HTTP/S traffic between browser and server for manual and automated testing.
+6. Wireshark: [Traffic Analyser](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/ccbfbd0a3c6c90f68f3b26d43e2b0f2b697d896a/Security-Tools/Wireshark)
+- Intercept HTTP/S traffic between browser and server for manual and automated testing.
+-
 
 7. Nikto: [Web Server Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/1345b42b71d968bebf411cc23460ce83a348ebf2/Security-Tools/Nikto):
 - Detect misconfigurations, outdated software, and exposed files in internal networks, dev/test environments, or legacy systems.

@@ -7,17 +7,17 @@ Essential learning guide in CyberSec.
 - [How Web Works](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/HowWebWorks.md)
 - [CIA-Concepts](https://github.com/IOxCyber/CyberEssentials/blob/main/Basic-GRC-Concepts/Security_Frameworks/CIA-TriadsAND-Vul-Risk-Threat.md)
 
-- [Natting-Encoding](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/Encoding-Nat.md)
-- [Application Programming Interface API-101](https://github.com/IOxCyber/CyberDev-Concepts/tree/main/CyDev-Concepts/All%20About%20API)
+- Natting-Encoding[Here](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/Encoding-Nat.md)
+- Application Programming Interface [API-101](https://github.com/IOxCyber/CyberDev-Concepts/tree/main/CyDev-Concepts/All%20About%20API)
 
 - [Active-Dir](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/AD-ActiveDirectory.md)
-- [GET v POST](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/GET-vs-POST.md)
+- GET v POST[here](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/GET-vs-POST.md)
 
-- [HTTP Request, Response, Methods](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/c15501dbc57f9d7ce04a7aa235cbd172bf9776ff/Network_101/Protocols-Related)
-- [Site v Origin & Cookies](https://github.com/IOxCyber/CyberWeb-Concepts/blob/main/CyDev-Concepts/Cookies-Site-Origin.md)
+- HTTP Request, Response, Methods[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/c15501dbc57f9d7ce04a7aa235cbd172bf9776ff/Network_101/Protocols-Related)
+- Site v Origin & Cookies[101](https://github.com/IOxCyber/CyberWeb-Concepts/blob/main/CyDev-Concepts/Cookies-Site-Origin.md)
 
-- [All About Session](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All-About-Session)
-- [DAST-SAST-IAST-RCA](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/e475265f39546d2690d61dafed7f9341935b1fc4/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
+- All About Session[Info](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All-About-Session)
+- DAST-SAST-IAST-RCA[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/e475265f39546d2690d61dafed7f9341935b1fc4/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
 
 ---
 ---

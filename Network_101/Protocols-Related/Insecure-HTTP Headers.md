@@ -7,20 +7,35 @@ HTTP headers are metadata sent by the server to the client (browser). Some of th
 
 ### Common Insecure or Missing HTTP Headers
 
-| **Header** | **Issue When Missing/Insecure** | **Why It Matters (Vulnerability)** | **Secure Value Example** |
-|------------|----------------------------------|-------------------------------------|----------------------------|
-| `Strict-Transport-Security (HSTS)` | Missing | Allows downgrade attacks (HTTPS → HTTP) | `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload` |
-| `X-Content-Type-Options` | Missing | MIME sniffing attacks | `X-Content-Type-Options: nosniff` |
-| `X-Frame-Options` | Missing | Clickjacking | `X-Frame-Options: DENY` or `SAMEORIGIN` |
-| `Content-Security-Policy (CSP)` | Missing or weak | XSS, data injection | `Content-Security-Policy: default-src 'self';` *(customize further)* |
-| `X-XSS-Protection` | Not set or set to 0 | XSS attacks (older browsers) | `X-XSS-Protection: 1; mode=block` *(optional now)* |
-| `Referrer-Policy` | Missing | Leaks internal URLs or sensitive info in referrer | `Referrer-Policy: no-referrer` or `strict-origin-when-cross-origin` |
-| `Permissions-Policy` *(was Feature-Policy)* | Missing | Browser feature abuse (e.g., camera, mic) | `Permissions-Policy: camera=(), microphone=(), geolocation=()` |
-| `Cross-Origin-Embedder-Policy` | Missing | Unsafe cross-origin resource loading | `Cross-Origin-Embedder-Policy: require-corp` |
-| `Cross-Origin-Resource-Policy` | Missing | Can expose internal resources to 3rd-party sites | `Cross-Origin-Resource-Policy: same-origin` |
-| `Access-Control-Allow-Origin` | Wildcard or unsafe | CORS misconfiguration (API abuse) | `Access-Control-Allow-Origin: https://yourdomain.com` |
+| **Header** | **Insecure or Missing Example** | **Why It Matters (Vulnerability)** | **Secure Value Example** |
+|------------|-------------------------------|------------------------------------|---------------------------|
+| `Strict-Transport-Security (HSTS)` | Not set | Downgrade attacks, MITM | `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload` |
+| `X-Content-Type-Options` | Not set | MIME-sniffing can cause XSS | `X-Content-Type-Options: nosniff` |
+| `X-Frame-Options` | `ALLOWALL` or missing | Clickjacking | `X-Frame-Options: DENY` or `SAMEORIGIN` |
+| `Content-Security-Policy (CSP)` | `default-src *` or missing | XSS, data injection | `Content-Security-Policy: default-src 'self';` |
+| `X-XSS-Protection` | `0` or missing | XSS in older browsers | `X-XSS-Protection: 1; mode=block` *(deprecated in modern browsers)* |
+| `Referrer-Policy` | Not set | URL leakage in Referer header | `Referrer-Policy: no-referrer` or `strict-origin-when-cross-origin` |
+| `Permissions-Policy` | Not set | Access to sensitive features | `Permissions-Policy: camera=(), geolocation=(), microphone=()` |
+| `Cross-Origin-Embedder-Policy` | Not set | Unsafe cross-origin loading | `Cross-Origin-Embedder-Policy: require-corp` |
+| `Cross-Origin-Resource-Policy` | Not set | Cross-origin resource theft | `Cross-Origin-Resource-Policy: same-origin` |
+| `Access-Control-Allow-Origin` | `*` (wildcard) | CORS abuse, data exfiltration | `Access-Control-Allow-Origin: https://yourdomain.com` |
+| `Expect-CT` | Not set | Lack of cert transparency monitoring | `Expect-CT: max-age=86400, enforce, report-uri="https://yourdomain.com/report"` |
+| `Cache-Control` | `public` or missing | Sensitive data stored in cache | `Cache-Control: no-store, no-cache, must-revalidate, private` |
+| `Pragma` | Not set | May cache sensitive responses | `Pragma: no-cache` |
+| `Expires` | Not set | Cached data may be reused | `Expires: 0` |
+| `Server` | `Server: Apache/2.4.18 (Ubuntu)` | Server fingerprinting | Omit entirely or generalize: `Server: Secure` |
+| `X-Powered-By` | `X-Powered-By: PHP/7.4.3` | Tech disclosure aids attackers | Remove or mask: `X-Powered-By: ` |
+| `Set-Cookie` (flags) | Cookies without `HttpOnly`, `Secure` | Cookie theft (XSS), MITM | `Set-Cookie: sessionid=abc123; HttpOnly; Secure; SameSite=Strict` |
+| `Feature-Policy` *(Deprecated)* | Not set | Modern browsers now use `Permissions-Policy` | Migrate to `Permissions-Policy` |
 
 ---
+
+- **Minimal Must-Have Set**:
+   - `Strict-Transport-Security`
+   - `X-Content-Type-Options`
+   - `X-Frame-Options`
+   - `Content-Security-Policy`
+   - `Set-Cookie` with all flags
 
 ### Real-World Risks When These Are Misconfigured:
 

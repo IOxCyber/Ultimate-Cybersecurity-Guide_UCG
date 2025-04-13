@@ -70,13 +70,13 @@ Essential learning guide in CyberSec.
 - **Definition:** Exploitation framework to identify, exploit, and validate system vulnerabilities.  
 - **Best For:** Web, Network, API, Application, Post-Exploitation.  
 
-3. Nessus: Vulnerability scanner
+3. Nessus: Vulnerability scanner 
 - **Definition:** To detect misconfigurations and security gaps System-level (OS, services, ports, packages), CVE-based scans for known vulns
 - **Best For:** Network, Web, Infrastructure, Cloud Security.  
 
-4. Nmap (Network Mapper):
-- **Definition:** Network scanner to map open ports, services, and hosts.  
-- **Best For:** Network Recon, Web Enumeration, API Recon.  
+4. Nmap [Network Mapper](https://github.com/IOxCyber/ZtoM_Bootcamp/tree/6daa4f8b817a38ecf7eec07189e2a6831cb3dfb9/2.Scanning/Nmap):
+- **Definition:** Network scanner to check open ports, services, and hosts.  
+- **Best For:** Network Recon, Web Enumeration, API Recon, Advance NSE (NMAP Script Engine) Support
 
 5. [Qualys Scanning Tool](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Qualys):
 - **Definition:** Cloud-based scanner for identifying vulnerabilities and ensuring compliance.  

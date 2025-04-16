@@ -13,11 +13,11 @@ Essential learning guide in CyberSec.
 - [Active-Dir](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/AD-ActiveDirectory.md)
 - GET v POST[here](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/GET-vs-POST.md)
 
-- HTTP Request, Response, Methods[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/c15501dbc57f9d7ce04a7aa235cbd172bf9776ff/Network_101/Protocols-Related)
+- HTTP Request, Response, Methods[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Network_101/Protocols-Related)
 - Site v Origin & Cookies[101](https://github.com/IOxCyber/CyberWeb-Concepts/blob/main/CyDev-Concepts/Cookies-Site-Origin.md)
 
 - All About Session[Info](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All-About-Session)
-- DAST-SAST-IAST-RCA[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/e475265f39546d2690d61dafed7f9341935b1fc4/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
+- DAST-SAST-IAST-RCA[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
 
 ---
 ---
@@ -34,7 +34,7 @@ Essential learning guide in CyberSec.
 
 - [Linux Related Concepts](https://github.com/IOxCyber/Linux-octo/blob/main/RH124/Describe-Networking-Concepts11.md#chapter-11-describe-networking-concepts)
 - [Protocols Related](https://github.com/IOxCyber/CyberEssentials/tree/main/Network_101/Protocols-Related)
-- [All Protocols](https://github.com/IOxCyber/CyberEssentials/blob/4c3f5cf30c82cfbbcad54cb4bfc0ad5c7b1e553b/Network_101/Protocols-Related/Protocols-OneLiner.md)
+- [All Protocols](https://github.com/IOxCyber/CyberEssentials/blob/main/Network_101/Protocols-Related/Protocols-OneLiner.md)
 
 - [OWASP WebApp-Vuln ZeroDay](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge)
 - [CEH-Examp-Prep](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/CEH-Exam-Prep)
@@ -48,7 +48,7 @@ Essential learning guide in CyberSec.
 
 
 ## Online PenTesting [PortSwigger Academy](https://portswigger.net/)
-- [Portswigger-Labs](https://github.com/IOxCyber/CyberEssentials/tree/127fb0b2d94ef5fa4b72bf5b545ccc801c3c8632/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
+- [Portswigger-Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
 > Client Side Vuln: ONLY `Cross Site Scripting(XSS) | Cross Site Request Forgery | Cross Origin Resource Sharing(CORS) | Clickjacking | DOM Based Vuln | Web Socket`
 
 ---
@@ -74,7 +74,7 @@ Essential learning guide in CyberSec.
 - **Definition:** To detect misconfigurations and security gaps System-level (OS, services, ports, packages), CVE-based scans for known vulns
 - **Best For:** Network, Web, Infrastructure, Cloud Security.  
 
-4. Nmap [Network Mapper](https://github.com/IOxCyber/ZtoM_Bootcamp/tree/6daa4f8b817a38ecf7eec07189e2a6831cb3dfb9/2.Scanning/Nmap):
+4. Nmap [Network Mapper](https://github.com/IOxCyber/ZtoM_Bootcamp/tree/main/2.Scanning/Nmap):
 - **Definition:** Network scanner to check open ports, services, and hosts.  
 - **Best For:** Network Recon, Web Enumeration, API Recon, Advance NSE (NMAP Script Engine) Support
 
@@ -82,11 +82,11 @@ Essential learning guide in CyberSec.
 - **Definition:** Cloud-based scanner for identifying vulnerabilities and ensuring compliance.  
 - **Best For:** Web, Cloud, Network, Compliance Audits.  
 
-6. Wireshark: [Traffic Analyser](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/ccbfbd0a3c6c90f68f3b26d43e2b0f2b697d896a/Security-Tools/Wireshark)
+6. Wireshark: [Traffic Analyser](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Wireshark)
 - Intercept HTTP/S traffic between browser and server for manual and automated testing.
 - Use to analyze the traffic.
 
-7. Nikto: [Web Server Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/1345b42b71d968bebf411cc23460ce83a348ebf2/Security-Tools/Nikto):
+7. Nikto: [Web Server Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Nikto):
 - Detect misconfigurations, outdated software, and exposed files in internal networks, dev/test environments, or legacy systems.
 - Best for initial recon and hygiene checks before deeper analysis with tools like Burp or Nessus.
 

@@ -1,4 +1,4 @@
-# APIs (Application Programming Interfaces)
+# APIs (Application Programming Interfaces) (OWASP Top 10 API Vuln)[https://owasp.org/API-Security/editions/2023/en/0x11-t10/]
 - `Enable software systems and applications to communicate and share data.`
 - All dynamic websites are composed of APIs, so classic web vulnerabilities like SQL injection could be classed as API testing.
 

@@ -4,7 +4,7 @@
 
 
 ## 1. API Recon `Info about Parameters, supported HTTP Methods, Auth Mechanisms`
-- To start API testing, identify API endpoints. These are locations where an API receives requests about a specific resource on its server.
+- To start API testing, `identify API endpoints.` These are locations where an API receives requests about a specific resource on its server.
 - For example, consider the following GET request:
 ```HTML
 GET /api/books HTTP/1.1
@@ -16,7 +16,8 @@ The types of requests the API accepts, including supported HTTP methods and medi
 Rate limits and authentication mechanisms.
 ```
 
-## 2. API documentation: `Gives info about request/response format, authentication mechanisms, and parameters.`
+## 2. API documentation:
+- `Gives info about request/response format, authentication mechanisms, and parameters.`
 - For Human: designed for developers to understand how to use the API. It may include detailed explanations, examples, and usage scenarios.
 - For Machine: Processed by software for automating tasks like API integration and validation. It's written in structured formats like JSON or XML.
 

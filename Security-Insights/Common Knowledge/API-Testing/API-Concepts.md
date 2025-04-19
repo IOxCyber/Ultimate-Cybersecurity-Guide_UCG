@@ -4,8 +4,8 @@
 
 
 ## 1. API Recon `Info about Parameters, supported HTTP Methods, Auth Mechanisms`
-- To start API testing, you first need to find out as much information about the API as possible, to discover its attack surface.
-- To begin, you should identify API endpoints. These are locations where an API receives requests about a specific resource on its server. For example, consider the following GET request:
+- To start API testing, identify API endpoints. These are locations where an API receives requests about a specific resource on its server.
+- For example, consider the following GET request:
 ```HTML
 GET /api/books HTTP/1.1
 Host: example.com
@@ -23,8 +23,7 @@ Rate limits and authentication mechanisms.
 ### Discovering API documentation:
 - Even if API documentation isn't openly available, you may still be able to access it by browsing applications that use the API such as Burp Scanner to crawl the API or Manually thu browser.
 - You can use Burp Scanner to crawl and audit OpenAPI documentation, or any other documentation in JSON or YAML format. You can also parse OpenAPI documentation using the OpenAPI Parser BApp.
-- You may also be able to use a specialized tool to test the documented endpoints, such as Postman or SoapUI
-```
+ ```
 Look for endpoints that may refer to API documentation, for example:
 /api
 /swagger/index.html
@@ -38,8 +37,8 @@ For example, if you identify the resource endpoint /api/swagger/v1/users/123, th
 
 ## 3. Identifying API endpoints `Specific URL or location where an API accessed by a client to interact with a server`
 - You can also gather a lot of information by browsing applications that use the API.
-While browsing the application, look for patterns in the URL structure that suggest API endpoints, such as `/API/.` Also, look out for JavaScript files.
-- Burp Scanner automatically extracts some endpoints during crawls, but for more heavyweight extraction, use the JS Link Finder BApp.
+- While browsing the application, look for patterns in the URL structure that suggest API endpoints, such as `/API/.` Also, look out for JavaScript files.
+- Burp Scanner automatically extracts some endpoints during crawls, but for more heavyweight extraction, use the JS LinkFinder BApp.
 - API Endpoints: `GET https://api.weatherapp.com/current?city=NewYork`
 ```
 In this example:

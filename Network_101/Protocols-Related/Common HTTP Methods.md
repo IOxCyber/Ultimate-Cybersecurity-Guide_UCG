@@ -1,4 +1,4 @@
-### **Common HTTP Methods**  
+### **Common HTTP Methods**  [Also Check](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Insights/Common%20Knowledge/API-Testing/Concepts-HTTP-Methods.md)
 These methods define how a client (like a browser or tool) interacts with a server or web API.
 
 | **Method** | **Definition (1-liner)** | **Purpose / Action** | **Payload** | **Idempotent?** | **Use in Pentesting / API Testing** |

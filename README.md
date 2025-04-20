@@ -17,6 +17,20 @@ Essential learning guide in CyberSec.
 
 - DAST-SAST-IAST-RCA[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
 - [CIA-Concepts](https://github.com/IOxCyber/CyberEssentials/blob/main/Basic-GRC-Concepts/Security_Frameworks/CIA-TriadsAND-Vul-Risk-Threat.md)
+
+---
+---
+
+## Online PenTesting [PortSwigger Academy](https://portswigger.net/)
+- [Portswigger-Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
+- Endpoints [AKA Entry Points](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Endpoints)
+
+> Client Side Vuln: ONLY `Cross Site Scripting(XSS) | Cross Site Request Forgery | Cross Origin Resource Sharing(CORS) | Clickjacking | DOM Based Vuln | Web Socket`
+
+## All About APIs:
+- Application Programming Interface [API-101](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All%20About%20API)
+- [API Security Testing](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge/API-Testing)
+
 ---
 ---
 
@@ -39,19 +53,6 @@ Essential learning guide in CyberSec.
 - [Client Side vs Server Side Vulnerability](https://github.com/IOxCyber/CyberEssentials/blob/main/Security-Insights/Common%20Knowledge/WEB-Vulnerabilities/Server-AND-Client_Side_Vuln.md)
 - [Thick Client Vuln](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge/Thick-Client-Vuln)
 
----
----
-
-
-## Online PenTesting [PortSwigger Academy](https://portswigger.net/)
-- [Portswigger-Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
-- Endpoints [AKA Entry Points](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Endpoints)
-
-> Client Side Vuln: ONLY `Cross Site Scripting(XSS) | Cross Site Request Forgery | Cross Origin Resource Sharing(CORS) | Clickjacking | DOM Based Vuln | Web Socket`
-
-## All About APIs:
-- Application Programming Interface [API-101](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All%20About%20API)
-- [API Security Testing](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge/API-Testing)
 ---
 ---
 

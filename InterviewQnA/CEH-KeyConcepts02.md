@@ -8,13 +8,18 @@ Querying a nameserver is the first move to gather DNS information.
 
 ---
 
+## Five-Tier Container Technology Architecture
+
+
+---
+
 ## Protocol to Secure LDAP
 Use **NTLM** (with a port, usually TCP 389/636 if encrypted), but **LDAPS (LDAP over SSL)** is more typical.
 
 ---
 
 ## LTE Attack Type
-The attack installing a fake tower is called an **aLTEr attack**.
+The attacker installing a fake tower is called an **aLTEr attack**.
 
 ---
 

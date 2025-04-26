@@ -1,9 +1,3 @@
-
-# Main Gist
-This file summarizes the key concepts, questions, and answers discussed in today's cybersecurity Q&A.
-
----
-
 ## Proxy Tool for Manual Testing
 **Burp Suite** is ideal for working as a proxy, saving requests/responses, and manual parameter/header testing.
 
@@ -11,11 +5,6 @@ This file summarizes the key concepts, questions, and answers discussed in today
 
 ## First Step of DNS Cache Poisoning
 Querying a nameserver is the first move to gather DNS information.
-
----
-
-## Five-Tier Container Technology Architecture
-Colleagues are working at **Tier-3: Registries** — handling image validation and uploading to registries.
 
 ---
 

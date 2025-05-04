@@ -7,6 +7,7 @@ Essential learning guide in CyberSec. [See Also](https://github.com/IOxCyber/Cyb
 ## 1. Web Application Security Testing: [PortSwigger Academy](https://portswigger.net/)
 - [Web Application Testing - Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
 - Endpoints [AKA Entry Points](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Endpoints)
+- Use Cases [See More](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Test-Cases/Use%20Cases)
 
 > Client Side Vuln: ONLY `Cross Site Scripting(XSS) | Cross Site Request Forgery | Cross Origin Resource Sharing(CORS) | Clickjacking | DOM Based Vuln | Web Socket`
 

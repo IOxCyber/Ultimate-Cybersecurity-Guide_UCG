@@ -80,6 +80,8 @@ Essential learning guide in CyberSec. [See Also](https://github.com/IOxCyber/Cyb
 - Detect misconfigurations, outdated software, and exposed files in internal networks, dev/test environments, or legacy systems.
 - Best for initial recon and hygiene checks before deeper analysis with tools like Burp or Nessus.
 
+8. SQLMAP: [SQL Based DB Injection Scanner](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/SqlMap)
+ 
 ---
 ---
 

@@ -11,4 +11,4 @@
 4. Connectors (AWS/Azure)
 - Scans indepently to add assets from cloud providers
 - Any asset identified can be seen in AssetView & Searchable
-- all gathered Metadata can be query
+- all gathered Metadata can be queried.

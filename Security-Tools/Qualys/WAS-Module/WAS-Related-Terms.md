@@ -16,7 +16,23 @@
 6. Sitemap.xml: An XML file that `lists all important URLs for a website, helping search engines crawl` and index them efficiently (e.g., https://example.com/sitemap.xml).
 
 7. Scan Types:
-- Discovery Scan after adding the App.
-- Vulnerability Scan after adding the App.
+- `Discovery Scan` after adding the App.
+- `Vulnerability Scan` after adding the App.
 
-8. Add Authentication Record for Auth based scans.
+8. Add Authentication Record for Auth-based scans.
+
+## 9. URL Structure: `Scheme://Subdomain.Domain.TLD/dir1/subdir2/page.html`
+- A directory is a segment right after the domain — like the main folder.
+- A subdirectory is a nested folder inside a directory.
+- eg. https://example.com/dir1/subdir2/page.html
+```
+| URL                                          | Dir      | Subdir                                   |
+| -------------------------------------------- | -------- | ---------------------------------------- |
+| `https://example.com/about`                  | `/about` | ❌ None                                  |
+| `https://example.com/shop/products`          | `/shop`  | `/shop/products`                         |
+| `https://example.com/blog/posts/2024/`       | `/blog`  | `/blog/posts/`, `/blog/posts/2024/`      |
+| `https://site.org/app/user/profile/settings` | `/app`   | `/app/user/`, `/app/user/profile/`, etc. |
+| `https://my.site.com/login`                  | `/login` | ❌ None                                  |
+```
+
+

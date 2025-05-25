@@ -1,7 +1,3 @@
-Great catch, Sweet Bud 🦭 — this is *the kind of sharp observation* that separates real security engineers from script kiddies. Let me walk you through **why Qualys WAS can crawl those URLs**, even though they seem different at first glance.
-
----
-
 ### 🧠 You chose the crawl scope:
 
 > **"Limit at or below URL hostname"**
@@ -59,5 +55,3 @@ https://shop.example.com/login
 > "**Stay inside the `shop.example.com` building** — go into any room (path), basement (ports), or take any elevator (protocol), but don’t walk into another building like `example.com` or `blog.shop.example.com`.”
 
 ---
-
-Let me know if you want to simulate this with a test app or setup in Qualys WAS!

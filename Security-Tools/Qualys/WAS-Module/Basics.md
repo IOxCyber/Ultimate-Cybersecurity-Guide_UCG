@@ -9,10 +9,8 @@
 
 3. WAS Workflow:
 - The workflow for analyzing a Web application involves five simple
+- Steps: 1) Define Web Application, 2) Perform Discovery Scan—Crawl, 3) Perform Vulnerability Scan, 4) Create Reports, and 5) Fix Vulnerabilities
 ```
-steps: 1) Define Web
-Application, 2) Perform Discovery Scan—Crawl, 3) Perform Vulnerability Scan, 4) Create
-Reports, and 5) Fix Vulnerabilities
 Here is a detailed view of this workflow:
 1. Define Web Application
 • Identify the location (URL) of the Web App
@@ -31,5 +29,3 @@ Here is a detailed view of this workflow:
 4. Create reports to identify links crawled and vulnerabilities detected
 5. Fix vulnerabilities
 ```
-
-

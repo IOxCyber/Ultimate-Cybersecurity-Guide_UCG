@@ -32,5 +32,4 @@ Here is a detailed view of this workflow:
 5. Fix vulnerabilities
 ```
 
-4. 
 

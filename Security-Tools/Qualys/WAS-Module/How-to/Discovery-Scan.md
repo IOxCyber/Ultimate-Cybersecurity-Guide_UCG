@@ -15,8 +15,10 @@
 - No new links to crawl
 - Default Max scan time reached i.e 24 hrs
 
-
-
+## Discovery methods:
+- Remote or Authenticated
+- Remote only
+- Authenticated only
 
 
 

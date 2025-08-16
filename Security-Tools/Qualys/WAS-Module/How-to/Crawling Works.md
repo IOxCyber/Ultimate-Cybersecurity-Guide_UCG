@@ -2,7 +2,7 @@
 
 > **"Limit at or below URL hostname"**
 >
-> URL Structure: **scheme://subdomain.domain.tld:port/path?query#fragment**
+> URL Structure: **scheme://subdomain.domain.tld:port/path?query#fragment** [more](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Network_101/Network-Concepts_101/URL%20Anotomy/URL_101.md)
 
 ---
 

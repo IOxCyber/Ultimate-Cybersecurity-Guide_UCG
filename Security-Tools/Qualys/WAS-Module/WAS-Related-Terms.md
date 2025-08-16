@@ -1,4 +1,4 @@
-1. WAS KB: `Starts with 150xx`
+## 1. WAS KB: QIDs for Web App Starts with `150xx`
 
 2. Web Application Security Consortium (WASC) Threat Classification:
 - The WASC Threat Classification is a cooperative effort to clarify and organize the threats to the security of a website.
@@ -11,7 +11,7 @@
 - WAS > Configuration
 - Dynamic/Static
 
-5. Robots.txt: A file that `tells search engines which pages or paths not to crawl` or index (e.g., Disallow: /admin/).
+## 5. Robots.txt: A file that `tells search engines which pages or paths not to crawl` or index (e.g., Disallow: /admin/).
 
 6. Sitemap.xml: An XML file that `lists all important URLs for a website, helping search engines crawl` and index them efficiently (e.g., https://example.com/sitemap.xml).
 
@@ -21,7 +21,7 @@
 
 8. Add Authentication Record for Auth-based scans.
 
-## 9. URL Structure: `Scheme://Subdomain.Domain.TLD/dir1/subdir2/page.html`
+## ## 9. URL Structure: `Scheme://Subdomain.Domain.TLD/dir1/subdir2/page.html`
 - A directory is a segment right after the domain — like the main folder.
 - A subdirectory is a nested folder inside a directory.
 - eg. https://example.com/dir1/subdir2/page.html

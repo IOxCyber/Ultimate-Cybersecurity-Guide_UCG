@@ -1,6 +1,8 @@
 ### 🧠 You chose the crawl scope:
 
 > **"Limit at or below URL hostname"**
+>
+> URL Structure: **scheme://subdomain.domain.tld:port/path?query#fragment**
 
 ---
 

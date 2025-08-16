@@ -7,7 +7,7 @@
 - CWE identifies types of software weaknesses, while CVE identifies specific instances of vulnerabilities.
 - CWE is like common flaws, like "buffer overflow," while CVE describes a specific instance of a vulnerability, like "CVE-2023-23397".
 
-4. Search List: `User-defined list of QIDs`
+## 4. Search List: `User-defined list of QIDs` for scan for custom QIDs
 - WAS > Configuration
 - Dynamic/Static
 

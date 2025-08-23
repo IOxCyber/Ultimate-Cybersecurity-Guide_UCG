@@ -1,10 +1,19 @@
 ![Static Badge](https://img.shields.io/badge/Ultimate-CybersecurityGuide-UCG)
 
+---
+---
+# Resources:
+1. [PortSwigger Academy](https://portswigger.net/)
+2. [Hacksplaining.com](https://hacksplaining.com/)
+---
+---
+
 ## Ultimate-Cybersecurity-Guide (UCG)
-Essential learning guide in CyberSec. [See Also](https://github.com/IOxCyber/CyberWeb-Concepts/blob/16953015a8102c72b34f90b0d1a430aaf1694ec1/README.md)
+Essential learning devs guide useful in CyberSec. [See Also](https://github.com/IOxCyber/CyberWeb-Concepts/blob/16953015a8102c72b34f90b0d1a430aaf1694ec1/README.md)
 
+---
 
-## 1. Web Application Security Testing: [PortSwigger Academy](https://portswigger.net/)
+## 1. Web Application Security Testing:
 - [Web Application Testing - Labs](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Web_Vuln-Insights-Labs)
 - Endpoints [AKA Entry Points](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Endpoints)
 - Use Cases [See More](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/tree/main/Security-Tools/Burp_Suite/PortSwigger-WebSecAcad/Test-Cases/Use%20Cases)
@@ -18,7 +27,6 @@ Essential learning guide in CyberSec. [See Also](https://github.com/IOxCyber/Cyb
 ## 3. Mobile App Sec Testing:
 - Android 
 - iOS 
-
 
 ---
 ---

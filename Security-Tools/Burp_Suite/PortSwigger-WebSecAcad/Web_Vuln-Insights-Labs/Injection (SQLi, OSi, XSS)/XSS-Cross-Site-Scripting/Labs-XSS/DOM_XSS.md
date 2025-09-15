@@ -34,7 +34,7 @@ OR
 # Lab 5: `Lab: Reflected XSS into HTML context with most tags and attributes blocked`
 - Most Tags & attributes are filtered by the firewalls.
 - Find out the which tag & attributes is not filtered, Capture the search request > send to Intruder > Start Attack with all tags, attributes as payload simple list.
-
+- Use the attacker controlled server to load the site in <iframe> to trigger the event automatically.
 
 
 

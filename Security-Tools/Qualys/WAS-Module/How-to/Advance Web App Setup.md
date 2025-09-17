@@ -1,5 +1,5 @@
 Selenium Scripts: 
-Qualys Browser Recorder, to record your task like Excel Macros in Selenium Script Format which can be upload in "Selenium Scripts" of Crawling Settings.
+Qualys Browser Recorder (QBR), to record your task like Excel Macros in Selenium Script Format which can be upload in "Selenium Scripts" of Crawling Settings.
 
 
 Form Crawl Scope: Determines the Form Uniquenes, if it's new or already discovered.
@@ -21,5 +21,15 @@ It's for Single Page Websites ie. used Ajax, AngularJS, Bootstrap framework. Pag
 QID 150148 "Ajax Links Crawled"
 
 
-Progressive Scanning:
+Progressive Scanning: "Scan Settings"
+One scan performed in multiple stages, the findings are updated in stages with each scan.
+
+eg.
+Traditional Web App Scans (3 hrs)
+Progressive Scan 1, Scan 2, Scan 3
+Partial Results, Partial Results, Final Results
+
+
+
+
 

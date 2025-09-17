@@ -24,6 +24,8 @@ QID 150148 "Ajax Links Crawled"
 Progressive Scanning: "Scan Settings"
 One scan performed in multiple stages, the findings are updated in stages with each scan.
 
+- Used where a scan typically exceed the amount of time of available within a scanning window.
+
 eg.
 Traditional Web App Scans (3 hrs)
 Progressive Scan 1, Scan 2, Scan 3

@@ -10,11 +10,13 @@ Using Records Methods (Basic/Form/NTLM).
 
 3. API Endpoint Definition — explicitly declare REST API endpoints (method, params, body, headers)  Using Postman collection, Burp Proxy Capture, Swagger/OpenAPI File.
 
-4. Set Up Exclusion Lists — exclude urls from scans by doing whitelist/blacklist in the app using Allow List ( Urls, Regular Expressions), Exclude List etc.
+4. Set Up Exclusion Lists — exclude urls, parameters from scans by doing whitelist/blacklist in the app using Allow List ( Urls, Regular Expressions), Exclude List etc.
 
-5. Default DNS Override — force host→IP mappings to scan internal or staging backends.
+5. Default DNS Override — ??
 
-6. Redundant Links — detect/ignore duplicate links to reduce crawl noise and repeated findings.
+6. Redundant Links — Specify redundant links to reduce crawl noise and repeated findings. Links can be specify as Regex to match a list of links.
+
+eg. http://www.example.com/products/prod[1-99].html
 
 7. Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints.
 

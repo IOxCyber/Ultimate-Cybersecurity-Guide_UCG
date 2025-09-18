@@ -12,7 +12,7 @@ Using Records Methods (Basic/Form/NTLM).
 
 4. Set Up Exclusion Lists — exclude urls, parameters from scans by doing whitelist/blacklist in the app using Allow List ( Urls, Regular Expressions), Exclude List etc.
 
-5. Default DNS Override — ??
+5. Default DNS Override — Allows you to change the web app resolved IP.
 
 6. Redundant Links — Specify redundant links to reduce crawl noise and repeated findings. Links can be specify as Regex to match a list of links.
 

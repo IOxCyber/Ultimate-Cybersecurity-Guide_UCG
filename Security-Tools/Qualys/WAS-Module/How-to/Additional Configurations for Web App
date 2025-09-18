@@ -18,10 +18,10 @@ Using Records Methods (Basic/Form/NTLM).
 
 eg. http://www.example.com/products/prod[1-99].html
 
-7. Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints in {} to perform fault injection tests (SQLi, XSS etc)
+7. Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints in {Url Rewriting} to perform fault injection tests (SQLi, XSS etc)
 
 eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
 
-8. Form Training — provide valid inputs and train scanners to submit complex multi-step forms correctly.
+8. Form Training — ??
 
-9. Malware Monitoring — continuously check for injected scripts, malware signatures, and blacklist status.
+9. Malware Monitoring — Detects the injected scripts, malware based on Behaviour & signatures and send Alerts via Emails.

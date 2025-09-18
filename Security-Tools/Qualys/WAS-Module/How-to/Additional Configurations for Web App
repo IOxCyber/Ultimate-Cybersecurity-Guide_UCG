@@ -1,0 +1,45 @@
+Below Options can be enabled when setting up an App.
+
+1. Authentication Records
+- One or More auth records can be provided to test an app. Auth Methods can be defined for each Record ie. Basic, Server, NTLM.
+
+2. Header Injection
+
+3. API Endpoint Definition 
+4. Set Up Exclusion Lists
+5. Default DNS Override
+6. Redundant Links
+7. Path Fuzzing Rules
+8. Form Training
+9. Malware Monitoring
+
+
+One-line precision definitions — What | Why | Example | Extras
+
+Feature	What (Purpose)	Why (Use)	Example: Where to use	Extras / Similar tech
+
+Authentication Records	Records holding login flows, credentials and auth method (Basic/Form/NTLM) for scanner use.	Lets scanner authenticate to test protected pages and authenticated logic.	Use for admin panels, user dashboards, or API token-based sessions.	Alternatives: SSO/Kerberos config, cookie injection, scripted login flows.
+Header Injection	Ability to insert or override HTTP headers on scanner requests.	Tests header parsing, access controls, proxy behavior and WAF bypasses.	Inject X-Forwarded-For or custom auth headers for API or proxy tests.	Similar: request tampering, proxy rules, cookie/header fuzzing.
+API Endpoint Definition	Manual definitions (method, path, params, body, headers) of API endpoints.	Ensures accurate scanning of API logic that a crawler might miss.	Define POST /api/v1/login with JSON body to test auth and rate limits.	Related: OpenAPI/Swagger import, Postman collection import.
+Set Up Exclusion Lists	URL/parameter/filetype/path patterns excluded from crawl/scan.	Prevents destructive or irrelevant scanning and reduces noise.	Exclude /logout, /payments, *.pdf, or external CDNs.	Similar: scan scope rules, robots.txt, inline scope selectors.
+Default DNS Override	Map hostnames to specific IPs for scanner DNS resolution.	Targets internal/staging hosts or forces a specific backend during scan.	Override app.example.com → 10.0.1.5 for scanning staging network.	Alternatives: hosts file on scanner, VPN/proxy routing.
+Redundant Links	Detect and ignore duplicate/equivalent links to avoid repeated crawl.	Improves crawl speed and reduces duplicate findings and noise.	Skip URLs that differ only by session IDs or canonical query params.	Related: URL normalization, canonical handling, deduplication rules.
+Path Fuzzing Rules	Custom wordlists and rules to brute-force hidden files, directories, endpoints.	Finds unlinked content, backup files, and hidden admin/API paths.	Fuzz /admin/ or /backup/{wordlist}.zip to discover exposed files.	Similar tools: dirb, ffuf, Burp Intruder; use recursive & extension rules.
+Form Training	Provide example inputs and train multi-step/dynamic forms so scanner can submit them.	Ensures scanner can traverse complex or tokenized forms and flows correctly.	Train signup/search/CSRF-protected forms with valid tokens and values.	Alternatives: Selenium-driven crawling, custom script templates.
+Malware Monitoring	Continuous checks for injected/malicious code, obfuscated JS, and blacklisting.	Detects site compromise and frontend malware that harms users/reputation.	Scan for obfuscated JS, iframe injections, and Google blacklist status.	Related services: Google Safe Browsing, website reputation scanners, AV signatures.
+
+
+
+---
+
+Copy-ready short summary (drop-in for notes or a report)
+
+Authentication Records — store and replay login flows/credentials so the scanner can test authenticated areas.
+Header Injection — add/override HTTP headers to test header-based behavior and WAF/proxy rules.
+API Endpoint Definition — explicitly declare API endpoints (method, params, body, headers) so the scanner tests API logic accurately.
+Set Up Exclusion Lists — exclude URLs/params/filetypes from scans to avoid destructive or irrelevant testing.
+Default DNS Override — force host→IP mappings to scan internal or staging backends.
+Redundant Links — detect/ignore duplicate links to reduce crawl noise and repeated findings.
+Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints.
+Form Training — provide valid inputs and train scanners to submit complex multi-step forms correctly.
+Malware Monitoring — continuously check for injected scripts, malware signatures, and blacklist status.

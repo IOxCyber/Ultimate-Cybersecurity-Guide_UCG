@@ -13,7 +13,8 @@
 
 ## 5. Robots.txt: A file that `tells search engines which pages or paths not to crawl` or index (e.g., Disallow: /admin/).
 
-## 6. Sitemap.xml: An XML file that `lists all important URLs for a website, helping search engines crawl` and index them efficiently (e.g., https://example.com/sitemap.xml).
+## 6. Sitemap.xml: 
+- An XML file that `lists all important URLs for a website, helping search engines crawl` and index them efficiently (e.g., https://example.com/sitemap.xml).
 
 ## 7. Scan Types:
 - `Discovery Scan` after adding the App.

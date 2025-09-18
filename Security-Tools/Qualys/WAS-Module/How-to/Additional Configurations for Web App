@@ -1,7 +1,9 @@
 Below Options can be enabled when setting up an App.
 
+WAS > Web App > Authentication Record
 
-1. Authentication Records — store and replay login flows/credentials so the scanner can test authenticated areas.
+
+1. Authentication Records — Store and replay login flows/credentials so the scanner can test authenticated fields. USE NON-PRIVILEGE ACCOUNTS.
 
 2. Header Injection — add/override HTTP headers to test header-based behavior and WAF/proxy rules.
 
@@ -22,7 +24,7 @@ Below Options can be enabled when setting up an App.
 
 | Feature | What (Purpose) | Why (Use) | Example: Where to use | Extras / Similar tech |
 |---|---|---|---|---|
-| Authentication Records | Records holding login flows, credentials and auth method (Basic/Form/NTLM) for scanner use. | Lets scanner authenticate to test protected pages and authenticated logic. | Use for admin panels, user dashboards, or API token-based sessions. | Alternatives: SSO/Kerberos config, cookie injection, scripted login flows. |
+| Authentication Records | Records login flows, credentials and auth methods (Basic/Form/NTLM) for scanner use. | Lets scanner authenticate to test protected pages and authenticated logic. | Use for admin panels, user dashboards, or API token-based sessions. | Alternatives: SSO/Kerberos config, cookie injection, scripted login flows. |
 | Header Injection | Ability to insert or override HTTP headers on scanner requests. | Tests header parsing, access controls, proxy behavior and WAF bypasses. | Inject `X-Forwarded-For` or custom auth headers for API or proxy tests. | Similar: request tampering, proxy rules, cookie/header fuzzing. |
 | API Endpoint Definition | Manual definitions (method, path, params, body, headers) of API endpoints. | Ensures accurate scanning of API logic that a crawler might miss. | Define `POST /api/v1/login` with JSON body to test auth and rate limits. | Related: OpenAPI/Swagger import, Postman collection import. |
 | Set Up Exclusion Lists | URL/parameter/filetype/path patterns excluded from crawl/scan. | Prevents destructive or irrelevant scanning and reduces noise. | Exclude `/logout`, `/payments`, `*.pdf`, or external CDNs. | Similar: scan scope rules, `robots.txt`, inline scope selectors. |

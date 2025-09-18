@@ -18,7 +18,9 @@ Using Records Methods (Basic/Form/NTLM).
 
 eg. http://www.example.com/products/prod[1-99].html
 
-7. Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints.
+7. Path Fuzzing Rules — supply wordlists and rules to brute-force hidden files/directories and endpoints in {} to perform fault injection tests (SQLi, XSS etc)
+
+eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
 
 8. Form Training — provide valid inputs and train scanners to submit complex multi-step forms correctly.
 

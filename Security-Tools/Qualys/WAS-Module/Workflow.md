@@ -1,9 +1,10 @@
 ## 1. Fault injection vs. Manual:
 ### Fault injection: `Automated Testing (Fast)`
 - Injecting "specially crafted" character strings into application form fields and examining the application's responses to detect vulnerabilities. 
-- Crafted according to Web app vulnerability data and information provided by OWASP, Web Application Security Consortium (WASC), and Common Weakness Enumeration (CWE).
+- Character Strings are Crafted according to Web app vulnerability data and information provided by OWASP, Web Application Security Consortium (WASC), and Common Weakness Enumeration (CWE).
+- Discovers 80-85% of Web App Vulnerabilities.
 
-### Manual: Thru Burp Integration (To discover Design flaws)
+### Manual: Thru Burp Integration (To discover Design flaws by Human Interaction.)
 
 ## 2. WAS Workflow:
 - The workflow for analyzing a Web application involves five simple

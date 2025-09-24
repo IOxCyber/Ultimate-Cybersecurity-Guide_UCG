@@ -24,11 +24,15 @@ Physical Infrastructure
 - Few Vulnerabilities eg. Container escape.
 
 ## Container Lifecycle Concerns:
-Build (Image): Software Composition (libraries), Vulnerabilities & misconfigurations.
 
-Ship (Registry): Registry Scanning & Hygiene, Image Source, Vuln & MisConfig.
+1. Build (Image): 
+Software Composition (libraries & pkgs), Vulnerabilities & misconfigurations, integrate with CICD pipeline for vulnerabilities visibility to dev teams.
 
-Run (Instance Infrastructure): Host Protection, Container Engine benchmarking, Container Orchestray benchmarking, Runtime Visibility & protection.
+2. Ship (Registry): 
+Registry Scanning & Hygiene (del old & stale images), Image Source (if it's from trusted source), Vuln & MisConfig.
+
+3. Run (Instance Infrastructure): 
+Host Protection, Container Engine benchmarking, Container Orchestray benchmarking, Runtime Visibility & protection.
 
 ## Key Points:
 - Patching and vulnerability remediation must be done on images not on containers.

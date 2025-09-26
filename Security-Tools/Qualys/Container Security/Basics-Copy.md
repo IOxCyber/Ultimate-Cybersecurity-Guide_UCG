@@ -1,16 +1,37 @@
-# Basics
+## Container Security:
+Process of implementing the security tools and policies to protect the infrastructure(where the docker engine running, storage), software supply chain, runtime & everything in between.(eg CICD build pipeline).
 
-This document provides an overview of container security using Qualys tools. It covers essential concepts and best practices for securing containerized applications.
+## Security Challenges:
+It's different from traditional security `due to Complexity & Dynamism of the container environment.` like ephemeral (short lived), stateless by design.
 
-## Key Concepts
-- **Container Isolation**: Ensuring containers are isolated from each other to prevent vulnerabilities from spreading.
-- **Vulnerability Management**: Regularly scanning containers for vulnerabilities and applying necessary patches.
-- **Compliance Monitoring**: Ensuring containers comply with industry standards and regulations.
+eg. Containers get terminated, created very frequently by Orchestrated tools.
 
-## Best Practices
-1. **Use Trusted Images**: Always use images from trusted sources.
-2. **Regular Scans**: Schedule regular scans for vulnerabilities.
-3. **Least Privilege**: Run containers with the least amount of privilege necessary.
+## Container Attack Vectors:
 
-## Conclusion
-Implementing container security is vital for protecting applications in a cloud-native environment.
+- Vulnerability and Misconfiguration in each layers from Containers to Physical level.
+
+Containers....Images
+       ↕️
+Orchestration Engine
+       ↕️
+Container Engine 
+       ↕️
+Host/Virtual Machine
+       ↕️
+Physical Infrastructure
+
+- Few Vulnerabilities eg. Container escape.
+
+## Container Lifecycle Concerns:
+
+1. Build (Image): 
+Software Composition (libraries & pkgs), Vulnerabilities & misconfigurations, integrate with CICD pipeline for vulnerabilities visibility to dev teams.
+
+2. Ship (Registry): 
+Registry Scanning & Hygiene (del old & stale images), Image Source (if it's from trusted source), Vuln & MisConfig.
+
+3. Run (Instance Infrastructure): 
+Host Protection, Container Engine benchmarking, Container Orchestray benchmarking, Runtime Visibility & protection.
+
+## Key Points:
+- Patching and vulnerability remediation must be done on images not on containers.

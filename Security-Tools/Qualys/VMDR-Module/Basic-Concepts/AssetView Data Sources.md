@@ -1,5 +1,5 @@
 # Asset View: `To Manage the asset inventory`
-- List out all the assets form all Qualys Applications including VM.
+- List out all the assets from all Qualys Applications including VM.
 - AssetView Search: To search the asset inventory > Can create a Widgets
 
 ## Asset Assessment + Assset Inventory
@@ -11,4 +11,4 @@
 4. Connectors (AWS/Azure)
 - Scans indepently to add assets from cloud providers
 - Any asset identified can be seen in AssetView & Searchable
-- all gathered Metadata can be queried.
+- All gathered Metadata can be queried.

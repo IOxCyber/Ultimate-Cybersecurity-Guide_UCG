@@ -9,7 +9,8 @@
 >
 > Integration: Thru Burp, BugCrowd, Plugins etc
 
-## 2. Define Crawl Settings: what level needs to be crawled/test in the site.
+## 2. Define Crawl Settings: 
+- `what level needs to be crawled/test in the site.`
 - Include `robot.txt` if you exclude the certain page crawling in the site.
 
 ## 3. Scan Settings:

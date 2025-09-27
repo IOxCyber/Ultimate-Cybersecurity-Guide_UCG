@@ -14,7 +14,8 @@
 - ![image](https://github.com/user-attachments/assets/6f1a4270-593a-4075-8cdf-2a1d1df87f7d)
 
 ### Using private keys/certificates:
-- Private Keys/Certificates: Multiple private keys and/or certificates for authentication can be used. Any combination of private keys (RSA, DSA, ECDSA, ED25519) and certificates (OpenSSH, X.509).
+- Private Keys/Certificates: Multiple private keys and/or certificates for authentication can be used. 
+- Any combination of private keys (RSA, DSA, ECDSA, ED25519) and certificates (OpenSSH, X.509).
 - The `user account must be added to all target hosts along with the public key`, which will be `appended to the “.ssh/authorized_keys2” file in the user’s home directory.`
 
 ### Root Delegation: for Elevated Privilege

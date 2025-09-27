@@ -13,4 +13,4 @@
 - Here’s a list of devices that can be scanned: all routers, switches, hubs, firewalls, servers (all common operating systems), workstations, databases, desktop computers, printers, and wireless access devices.
 - Vulnerability range including back doors and trojan horses, brute force attacks, CGI, databases, DNS and Bind, e-commerce applications, file sharing, FTP, firewalls, General Remote Services, hardware and network appliances, mail services, SMB/Netbios Windows, TCP/IP, VMware, VoIP, web servers, wireless access points, X-windows & more.
 
-> Not sure what you have? Run a discovery scan (map) to find the live devices on your network.
+> Not sure what assets you have in your environment? Run a discovery scan (map) to find the live devices on your network.

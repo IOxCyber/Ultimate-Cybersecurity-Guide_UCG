@@ -5,7 +5,6 @@
 1. Profile Details:
 - Add tag & Name
 
-
 2. Scan Parameter:
 - Form Submission (Define Form Action URI & Form Field Names) - None, Post, Get, **Post & Get**
 - Form Crawl Scope `(Max links to crawl i.e 8000)`

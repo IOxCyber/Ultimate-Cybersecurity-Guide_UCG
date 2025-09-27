@@ -1,4 +1,4 @@
-### 🧠 You chose the crawl scope:
+### You chose the crawl scope:
 
 > **"Limit at or below URL hostname"**
 >
@@ -6,7 +6,7 @@
 
 ---
 
-### ✅ That means:
+### That means:
 
 > Allow crawling anything that:
 
@@ -22,7 +22,7 @@ https://shop.example.com/login
 
 ---
 
-### 🔍 Breakdown of Each Crawled URL:
+### Breakdown of Each Crawled URL:
 
 | URL                                             | Crawled? | Why?                                                                            |
 | ----------------------------------------------- | -------- | ------------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ https://shop.example.com/login
 
 ---
 
-### 🔥 Key Point:
+### Key Point:
 
 > “**Limit at or below URL hostname**” **≠** “Only this exact URL”
 > It means:
@@ -41,7 +41,7 @@ https://shop.example.com/login
 
 ---
 
-### 📍 What It Will **NOT** Crawl:
+### What It Will **NOT** Crawl:
 
 | URL                              | Why Not?                      |
 | -------------------------------- | ----------------------------- |
@@ -51,7 +51,7 @@ https://shop.example.com/login
 
 ---
 
-### 🔓 Real-life Analogy:
+### Real-life Analogy:
 
 > You're telling the scanner:
 > "**Stay inside the `shop.example.com` building** — go into any room (path), basement (ports), or take any elevator (protocol), but don’t walk into another building like `example.com` or `blog.shop.example.com`.”

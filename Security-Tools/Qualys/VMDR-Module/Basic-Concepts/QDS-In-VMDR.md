@@ -1,5 +1,6 @@
 ## Understanding the Qualys Detection Score
-- The Qualys Detection Score (QDS) is assigned to vulnerabilities detected by Qualys. QDS has a range from 1 to 100 and with four severity levels:
+- The Qualys Detection Score (QDS) is assigned to vulnerabilities detected by Qualys. 
+- QDS has a range from 1 to 100 and with four severity levels:
 
 - Critical: 90-100
 

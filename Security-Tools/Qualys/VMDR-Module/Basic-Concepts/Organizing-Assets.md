@@ -14,7 +14,8 @@
 
 
 ## 2. Asset Tagging: [I'm here](https://docs.qualys.com/en/vm/10.29.0.0/host_assets/tags_asset_tagging.htm) `AssetView > Tags > Tag Details > Define Config > Done` OR `VM > Asset Search > Create Tags`
-- Another method for organizing and tracking the assets in your account. Asset tagging must be enabled for your account to create the tags.
+- Another method for organizing and tracking the assets in your account. 
+- Asset tagging must be enabled for your account to create the tags.
 - You can assign tags to your host assets, and can select when setting up a scan.
 - Dynamic approach to ensure you include all hosts that match certain criteria, even if your network constantly changes as hosts are added and removed.
 

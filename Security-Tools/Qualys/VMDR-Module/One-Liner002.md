@@ -10,5 +10,4 @@
 
 
 7. Qualys Asset Group Management Service (AGMS): new service, introduced `to improve performance related to Asset Management & Asset Group Management functionality.`
-8. 
     

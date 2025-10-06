@@ -11,5 +11,6 @@
 ## Custom Signature:
 - `Allow organizations to create their own detection rules`
 - Use to extend the detection logic.
-
+- Custom Signature ID starts with `655`
+- Web Application detection ID starts with `150`
 

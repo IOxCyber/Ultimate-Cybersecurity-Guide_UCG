@@ -10,4 +10,6 @@
 
 ## Custom Signature:
 - `Allow organizations to create their own detection rules`
-- 
+- Use to extend the detection logic.
+
+

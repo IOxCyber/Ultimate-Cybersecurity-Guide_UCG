@@ -1,5 +1,5 @@
 ## To Set Up a New Option Profile:
--  `Default: Initial WAS Option`
+
 - Option Profile > New > Provide details.
 
 1. Profile Details:
@@ -16,6 +16,7 @@
 - Detection Scope: Specify the QIDs to scan (`Core`, based on a specific `Category`(eg. OWASP top 10, Apache related etc), `Custom Search List`, `XSS Power Mode`, or EVERYTHING)
 
 3. Search Criteria:
+- Detection Scope, Sensitive Content and keyword URL Search.
 
 
 

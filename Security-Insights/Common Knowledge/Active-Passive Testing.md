@@ -1,9 +1,11 @@
-Testing Type:
+# Passive vs Active Testing (VAPT) — Quick Reference
 
-Passive Testing	Understanding app’s behavior, structure, and logic without altering it.	To collect intelligence safely before attacking (reconnaissance).	• HTTP request/response observation<br>• Header analysis<br>• Discovering endpoints (via Burp Suite, ZAP, etc.)<br>• Tech stack fingerprinting (via Wappalyzer, WhatWeb)<br>• API schema review	• No payloads or intrusive actions<br>• Silent — doesn’t modify server state.
-Active Testing	Interacting directly with the app to find vulnerabilities by sending crafted inputs or manipulating requests.	To verify, exploit, and confirm security weaknesses.	• SQLi, XSS, CSRF testing<br>• Authentication, Authorization, Session management checks<br>• Input validation and error handling tests<br>• Cryptography and business logic testing<br>• API fuzzing	• Verbose/noisy — can trigger alerts/logs.<br>• Tools: Burp Intruder, SQLMap, OWASP ZAP Active Scan, wfuzz, etc.
+| Testing Type     | What (Purpose)                                                                 | Why (Use of it)                                                     | Examples / Methods                                                                 | Extras (Alternatives & Notes)                                                                 |
+|------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Passive Testing  | Understanding the application's behavior, structure and logic without altering it. | To collect intelligence safely for reconnaissance and planning.      | HTTP request/response observation, header analysis, endpoint discovery, tech fingerprinting. | Non-intrusive and silent; tools: Burp Proxy (passive), Wappalyzer, WhatWeb; doesn't change server state. |
+| Active Testing   | Interacting directly with the app using crafted inputs to find vulnerabilities.     | To verify, exploit and confirm security weaknesses with proof-of-concept. | SQLi, XSS, CSRF testing, authentication/authorization/session checks, input validation tests, API fuzzing. | Noisy/verbose and may trigger alerts; tools: Burp Intruder, SQLMap, wfuzz, OWASP ZAP Active Scan. |
 
-
+**Key note:** Always perform Passive reconnaissance before Active testing to target your tests and reduce unnecessary noise.
 ---
 
 🧠 Key Insights (Keep it crisp & practical)

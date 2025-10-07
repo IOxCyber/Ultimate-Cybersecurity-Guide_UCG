@@ -6,6 +6,7 @@
 | **IAST** | Interactive App Security Testing | Real-time analysis during app runtime with insight from the inside.         |
 | **SAST** | Static App Security Testing      | White-box testing – inspects **source code** or binaries.                   |
 | **RCA**  | Root Cause Analysis              | Pinpoints **why/how** a vuln occurred, helps fix it at the source.          |
+| **SCA**  | Software Composition Analysis              | Scans the application for open source components and 3rd party libraries.   |
 
 ---
 

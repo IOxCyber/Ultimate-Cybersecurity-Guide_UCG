@@ -17,7 +17,7 @@
 - The scanner then observes and analyzes the application's response to identify vulnerabilities. 
 
 ### The types of fault injection tests include fuzzing to test for various vulnerabilities: 
-SQL injection, Cross-Site Scripting (XSS), API Injection, Input Validation.
+SQL injection, Cross-Site Scripting (XSS), API Injection, Input Validation. 
 
 ## 2. Manual: Thru Burp Integration
 - To discover Design flaws by Human Interaction.

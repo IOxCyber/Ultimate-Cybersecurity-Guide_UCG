@@ -1,7 +1,8 @@
 # Web App Scanning Testing Techniques:
+- WAS performed Testing using below 2 techniques i.e Fault Injection (covers 80-85% vulns), Manual Testing (Burp Integration)
 
 ## 1. Fault injection: `Automated Testing (Fast)`
-- it is an automated function of the Qualys Web Application Scanning (WAS) service, which is a dynamic application security testing (DAST) solution.
+- An automated feature of WAS module, which is a dynamic application security testing (DAST) solution.
 - The `scanner automatically performs fault injection during a vulnerability scan after it has finished crawling your web application.`
 - Injecting "specially crafted" character strings into application form fields to detect vulnerabilities. 
 - Character Strings are Crafted according to Web app vulnerability data and information provided by OWASP, Web Application Security Consortium (WASC), and Common Weakness Enumeration (CWE).

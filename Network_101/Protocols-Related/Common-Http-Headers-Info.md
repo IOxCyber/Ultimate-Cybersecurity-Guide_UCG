@@ -17,7 +17,7 @@
 
 | Header Name                 | Jargon-Free Meaning                                     | Example Value                                      | Notes                                                    |
 | --------------------------- | ------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------- |
-| `Referer` *(typo in spec)*  | The URL of the page that linked to the current page     | `Referer: https://example.com/page1`               | Used for tracking and analytics; can leak sensitive URLs |
+| `Referer`  | The previous URL of the page that linked to the current page     | `Referer: https://example.com/page1`               | Used for tracking and analytics; can leak sensitive URLs |
 | `User-Agent`                | Info about browser and OS                               | `Mozilla/5.0 (Windows NT 10.0; Win64; x64)`        | Useful for recon/fingerprinting                          |
 | `Host` / `:authority`       | Which domain is being requested                         | `Host: thehackernews.com`                          | Target for Host Header Injection                         |
 | `Cookie`                    | Sends session data or tracking ID                       | `Cookie: session=abcd1234`                         | Sensitive—exploitable via XSS if `HttpOnly` not used     |

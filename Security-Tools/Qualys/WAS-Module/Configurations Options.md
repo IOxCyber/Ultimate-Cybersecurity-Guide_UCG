@@ -4,9 +4,21 @@
 
 1. Authentication Records — Store and replay login flows/credentials so the scanner can test authenticated fields. `USE NON-PRIVILEGE ACCOUNTS.`
 - Using Records Methods:
-    - Basic (HTTP Basic Auth)
-    - Form (HTML Form based Login)
-    - NTLM (Windows Integraed Auth)
+1. Form Authentication:
+    - HTTP Form-based Authentication (Standard login)
+    - Custom Form field (Non standard login field)
+    - Selenium Script (Complex Set Up)
+
+2. OAuth2 Authentication:
+- Authentication Code (for server side app which can store credentials)
+- Implicit(For client side/Browsers)
+- Client Credentials (without User interaction)
+- Resource Owner Password Credentials
+
+3. Server Records:
+- Basic (Encoded Creds)
+- Digest (Hashed Creds)
+- NTLM (Windows Integrated Enterprise Auth)
 
 2. Header Injection:
 - Configure custom HTTP headers to be added/overridden on requests made by the scanner.

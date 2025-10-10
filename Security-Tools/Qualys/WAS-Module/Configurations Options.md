@@ -11,9 +11,9 @@
 
 2. OAuth2 Authentication:
 - Authentication Code (for server side app, Uses 3rd Party to login)
-- Implicit(For client side/apps running in Browsers)
-- Client Credentials (for apps which works without User interaction like HR portals)
-- Resource Owner Password Credentials
+- Implicit(For client side Mobile or Web apps running in Browsers)
+- Client Credentials (for apps where No User interaction required like HR portals)
+- Resource Owner Password Credentials (When Creds exchanged for Tokens by the App)
 
 3. Server Records:
 - Basic (Encoded Creds)

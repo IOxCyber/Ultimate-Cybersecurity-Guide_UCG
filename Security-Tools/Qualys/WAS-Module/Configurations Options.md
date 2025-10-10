@@ -5,9 +5,9 @@
 1. Authentication Records — Store and replay login flows/credentials so the scanner can test authenticated fields. `USE NON-PRIVILEGE ACCOUNTS.`
 - Using Records Methods:
 1. Form Authentication:
-    - HTTP Form-based Authentication (Standard login)
-    - Custom Form field (Non standard login field)
-    - Selenium Script (Complex Set Up)
+    - HTTP Form-based Authentication (Standard login, Username & Password) - Same Domain
+    - Custom Authentication (Non standard login field with additional fields like Tokens, 2FA)
+    - Selenium Script (Complex Set Up, record the login process & upload it)
 
 2. OAuth2 Authentication:
 - Authentication Code (for server side app which can store credentials)

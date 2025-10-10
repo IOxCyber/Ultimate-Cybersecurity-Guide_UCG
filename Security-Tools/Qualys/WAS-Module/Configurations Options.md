@@ -10,9 +10,9 @@
     - Selenium Script (Complex Set Up, record the login process & upload it)
 
 2. OAuth2 Authentication:
-- Authentication Code (for server side app which can store credentials)
-- Implicit(For client side/Browsers)
-- Client Credentials (without User interaction)
+- Authentication Code (for server side app, Uses 3rd Party to login)
+- Implicit(For client side/apps running in Browsers)
+- Client Credentials (for apps which works without User interaction like HR portals)
 - Resource Owner Password Credentials
 
 3. Server Records:

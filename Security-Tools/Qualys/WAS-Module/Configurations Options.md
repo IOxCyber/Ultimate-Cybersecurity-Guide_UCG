@@ -6,7 +6,7 @@
 - Using Records Methods:
 1. Form Authentication:
     - HTTP Form-based Authentication (Standard login, Username & Password) - Same Domain
-    - Custom Authentication (Non standard login field with additional fields like Tokens, 2FA)
+    - Custom Authentication (Non standard login field with additional fields like Tokens, 2FA or hidden fields)
     - Selenium Script (Complex Set Up, record the login process & upload it)
 
 2. OAuth2 Authentication:

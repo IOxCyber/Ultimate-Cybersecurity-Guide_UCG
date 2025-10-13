@@ -11,3 +11,24 @@
 | API mass-assignment | Unfiltered binding updates sensitive model fields | Proxy + Param Miner + Repeater; tamper JSON body | Add `"isAdmin": true` in JSON body | API object update endpoints accepting JSON | Sensitive attribute changed; privilege escalation |
 | Session issues (fixation/entropy) | Reusable/predictable session tokens or fixation flows | Sequencer + Repeater (reuse/expiry/side-by-side tests) | Reuse old session ID or set cookie to known value | Auth flows, session cookie endpoints, login flows | Session persists after logout or tokens predictable |
 | Blind / Time-based SQLi | Injection detectable only via response timing or side-effects | Repeater/Intruder + manual timing payloads (or sqlmap via Burp) | `' OR IF(1=1,SLEEP(5),0)-- -` | ID/query params
+
+
+# Extra Web/API Vulnerabilities to Test (compact list)
+
+| Vulnerability | What (purpose) | Why (use) | Example: Where to test | Extras: Tools / Notes |
+|---|---:|---|---|---|
+| Server‑Side Template Injection (SSTI) | Template expression injection leading to code exec | Templates evaluate attacker input on server → RCE/data access | Any endpoint that renders server templates with user input (forms, previews) | Test templating engines (Jinja, Twig); use payloads like `{{7*7}}`; Burp Repeater, manual probes |
+| Open Redirect | Unvalidated redirect targets allowing phishing/flow abuse | Redirects to attacker sites enable phishing or token theft | `?next=` / `redirect=` params, OAuth `redirect_uri` handlers | Check strict allowlist; use payload `?url=https://evil.example` |
+| Clickjacking / UI redress | Site can be framed to trick user into actions | Lack of frame protections leads to CSRF-like UX attacks | Sensitive pages (banking, transfer, admin) | Check `X-Frame-Options`/CSP frame-ancestors; use iframe PoC in Burp intruder HTML |
+| CORS misconfiguration | Over-permissive cross-origin policies leak data | Weak CORS allows cross-site reads of sensitive resources | API endpoints that return CORS headers, credentialed APIs | Test `Origin` variations; look for `Access-Control-Allow-Origin: *` with credentials |
+| Insecure TLS / HTTPS config | Weak ciphers/protocols or missing HSTS | Network-level MITM or downgrade attacks | All public endpoints, API domains | Use SSL Labs / testssl.sh; verify HSTS, cert chains, modern ciphers |
+| OAuth / SSO Misuse | Incorrect OAuth flows / redirect validation | Auth flows can be abused for token leakage or impersonation | OAuth redirect flows, token endpoints, SSO SAML/OIDC | Test open redirect in `redirect_uri`, nonce/state handling, token leakage |
+| JWT weaknesses | Weak signing, alg:none, predictable secrets | Token forgery or privilege escalation | Auth flows issuing JWTs, mobile/web tokens | Check `alg` attacks, unsigned tokens, key reuse; use jwt.io / Burp to tamper |
+| HTTP Host Header injection | Host header influences app logic or password reset links | Can poison URLs, password reset emails, generate SSRF | Host-validated codepaths, link-generation logic | Test by setting Host to attacker domain; look for outbound links using Host |
+| CRLF injection / HTTP response splitting | Inject headers or split responses for cache/redirect poisoning | Can set cookies, create XSS or cache poisoning | Any header-echoing endpoint (redirects, filenames) | Try `%0d%0aHeader: value` in inputs; Burp Repeater for verification |
+| LDAP / Command injection | Injection into LDAP or OS-level commands | Leads to auth bypass, RCE, or data exfiltration | LDAP bind queries, admin consoles, legacy endpoints | Test LDAP filters and shell-escaping; use atypical characters and payloads |
+| GraphQL-specific issues | Introspection, excessive data exposure, auth bypass | Single endpoint exposing wide attack surface or data leakage | `/graphql` endpoints, mobile backends | Query introspection, craft large queries, test field-level auth |
+| WebSocket auth/ACL issues | Persistent socket with weak auth/ACLs | Long-lived channel can bypass request-level checks | Real-time APIs (chat, notifications) | Inspect WS messages in Burp; test auth tokens, role checks |
+| Excessive Data Exposure (APIs) | APIs returning more data than needed | Attackers enumerate sensitive fields and escalate | Object APIs, list endpoints, admin APIs | Fuzz fields, review responses for PII/credentials; use Burp + JSON inspection |
+| Debug / Admin endpoints exposed | Debug consoles or admin UIs reachable in prod | Gives attackers powerful control or info (stack, env vars) | `/debug`, `/admin`, `/actuator`, `/console` | Crawl `.env`-like endpoints, look in JS for endpoints; disable in prod |
+| Parameter pollution / HTTP Parameter Tampering | Duplicate/multiple params cause unexpected behavior | Backend may pick first/last leading to bypasses | Endpoints accepting arrays or repeated params | Test `?id=1&id=2`, JSON+form conflicts; use Burp Intruder / Repeater |

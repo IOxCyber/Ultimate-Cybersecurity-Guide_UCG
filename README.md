@@ -36,7 +36,8 @@ Essential learning devs guide useful in CyberSec. [See Also](https://github.com/
 - Network Security [Concepts](https://github.com/IOxCyber/CyberEssentials/tree/main/Network-Security)
 
 - 3-way-handsharking_Ports_Network-Devices_URL_Web-Browser [Go](https://github.com/IOxCyber/CyberEssentials/tree/main/Network_101/Network-Concepts_101)
-- [SANS Top 20 Controls](https://github.com/IOxCyber/CyberEssentials/blob/main/Basic-GRC-Concepts/Security_Frameworks/SANS-Top-20.md)
+
+- [SANS Top 20/ CIS Critical Security Controls](https://github.com/IOxCyber/CyberEssentials/blob/main/Basic-GRC-Concepts/Security_Frameworks/SANS-Top-20.md)
 
 - [Network Models: OSI v TCP/IP](https://github.com/IOxCyber/CyberEssentials/tree/main/Network_101/Logical-Network-Models)
 - [IP-Related, Subnetting](https://github.com/IOxCyber/CyberEssentials/tree/main/Network_101/IP-and-Subnetting-related)

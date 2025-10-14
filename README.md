@@ -34,6 +34,7 @@ Essential learning devs guide useful in CyberSec. [See Also](https://github.com/
 ## Topics-Covered:
 - [Security Framework](https://github.com/IOxCyber/CyberEssentials/tree/main/Basic-GRC-Concepts/Security_Frameworks)
 - Network Security [Concepts](https://github.com/IOxCyber/CyberEssentials/tree/main/Network-Security)
+- Active/Passive [Scans](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Insights%2FCommon%20Knowledge%2FActive-Passive%20Testing.md)
 
 - 3-way-handsharking_Ports_Network-Devices_URL_Web-Browser [Go](https://github.com/IOxCyber/CyberEssentials/tree/main/Network_101/Network-Concepts_101)
 

@@ -5,9 +5,15 @@ Web login pages, often the entry point for authentication, are prime targets for
 
 ## Without Credentials (Unauthenticated Access - Focus on Public-Facing Login Form)
 
+- Username Enumerate
+- Brute Force/No Rate Limiting
+- Login Bypass via Sqli
+- XSS in Login
+- 
+
 These are testable by anyone intercepting or submitting to the login endpoint.
 
-1. **Username Enumeration**  
+1. **Username Enumeration/Brute Force**  
    - **Description**: Server responses differ based on whether a username exists (e.g., "Invalid password" vs. "Invalid username"), allowing attackers to harvest valid usernames.  
    - **Burp Detection**: Passive - Observe response messages/timing in Proxy history for failed logins. Active - Use Intruder with username wordlists to compare responses (e.g., status codes, body length).  
    - **Impact**: Aids brute-force or targeted attacks.
@@ -58,6 +64,10 @@ These are testable by anyone intercepting or submitting to the login endpoint.
     - **Impact**: Session theft if it steals cookies.
 
 ## With Credentials (Authenticated Access - Post-Login Testing)
+
+- Session Fixation (PreSet Session ID)
+- Security Headers
+- IDOR (Prev. Escalation)
 
 These require valid logins (or bypassing auth via above vulns). Use Burp after authenticating: scope the session cookie, then scan authenticated areas. Active for probing; passive for session analysis.
 

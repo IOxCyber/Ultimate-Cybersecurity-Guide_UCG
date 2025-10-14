@@ -22,7 +22,7 @@ Essential learning devs guide useful in CyberSec. [See Also](https://github.com/
 
 ## 2. All About APIs:
 - Application Programming Interface [API-101](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/CyDev-Concepts/All%20About%20API)
-- [API Security Testing](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge/API-Testing)
+- API Security Testing, OWASP Top 10 for API[Go](https://github.com/IOxCyber/CyberEssentials/tree/main/Security-Insights/Common%20Knowledge/API-Testing)
 
 ## 3. Mobile App Sec Testing:
 - Android 

@@ -1,4 +1,4 @@
-# Passive vs Active Testing (VAPT) — Quick Reference
+# Passive vs Active Testing (VAPT) — Quick Reference (BurpSuite)
 
 | Testing Type     | What (Purpose)                                                                 | Why (Use of it)                                                     | Examples / Methods                                                                 | Extras (Alternatives & Notes)                                                                 |
 |------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
@@ -10,10 +10,10 @@
 
 🧠 Key Insights (Keep it crisp & practical)
 
-1. Passive = Observation mode → Like a spy listening to conversations.
+1. Passive = Observation mode → Like a spy listening to conversations. (No Payload Sent)
 
 
-2. Active = Engagement mode → Like a hacker testing the locks.
+2. Active = Engagement mode → Like a hacker testing the locks. (With Payload Sent)
 
 
 3. Passive gives intel, Active gives proof.

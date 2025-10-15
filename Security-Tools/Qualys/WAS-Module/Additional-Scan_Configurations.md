@@ -22,11 +22,16 @@
 - NTLM (Windows Integrated Enterprise Auth)
 
 ## 2. Header Injection:
-- Configure custom HTTP headers to be added/overridden on requests made by the scanner.
-- Useful to exercise header-based logic, test WAF rules, and check how app reacts to modified headers.
+- Required when scanner needs to send custom headers while accessing the web application.
+- Helpful in apps required below options..
+- Session Based Access (F12 > Application > Cookies), Token Authentication or Browser like behaviour (Eg. Bypass a complex login with CAPTCHA)
+
 
 ## 3. API Endpoint Definition:
-- Explicitly `declare REST API endpoints (method, params, body, headers) Using Postman collection, Burp Proxy Capture, Swagger/OpenAPI File.` so the scanner can exercise APIs properly instead of only crawling HTML links.
+- Explicitly `declare REST API endpoints (method, params, body, headers)`
+- Using Postman collection (group of APIs), Env Variables, Global Variable File.
+- Burp Proxy Capture (Captured Requests),
+- Swagger 2.0/OpenAPI File (JSON format - Parses API Endpoints for Vulnerability)
 
 
 ## 4. Set Up Exclusion Lists

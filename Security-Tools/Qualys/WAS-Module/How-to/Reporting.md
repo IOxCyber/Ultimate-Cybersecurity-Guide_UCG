@@ -19,6 +19,8 @@ Scan Report (Shows Results of any scans for a single web Application)
 - `Detailed report for the latest scan` performed for the selected web application.
 - Shows No vulnerability history data.
 - `Focused on a single scan instance`
+- `Check the Auth Status` of the completed scan.
+
 
 ### 3. Scorecard Report:
 - Presents an `interactive view of the results of the selected web application.`

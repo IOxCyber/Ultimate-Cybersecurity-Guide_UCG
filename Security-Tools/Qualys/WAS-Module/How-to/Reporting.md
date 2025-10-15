@@ -12,14 +12,18 @@ Scan Report (Shows Results of any scans for a single web Application)
 
 ### 1. Web Application Report:
 - `Detailed report of the aggregated detections.`
-- Shows Security status of one or more of your web applications.
+- Combines all scans performed on a single web application (Vuln History & Status included (New, Active, Reopened,Fixed)
+
 
 ### 2. Scan Report:
 - `Detailed report for the latest scan` performed for the selected web application.
+- Shows No vulnerability history data.
+- `Focused on a single scan instance`
 
 ### 3. Scorecard Report:
-- Overall scorecard with high level numbers and graphs.
-- To monitor the performance of the various teams incharge of the remediation.
+- Presents an `interactive view of the results of the selected web application.`
+- By default, the scorecard report includes all the web applications with detected vulnerabilities. (filter out by certain web app by tags)
+
 
 ### 4. Catalog Report:
-- Shows Web Services discovered by completed Map/Discovery/vulnerability/WAS scans in your account.
+- Shows Web applications discovered by completed Map/Discovery/vulnerability/WAS scans in your account.

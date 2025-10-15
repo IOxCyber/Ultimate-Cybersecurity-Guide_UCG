@@ -60,7 +60,10 @@ http://www.abc/query-parameter1/{query-value1}/query-parameter2/{query-value2}/q
 eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
 
 ## 8. Form Training:
-- A process where `WAS learns how forms behave in your application & how to fill them, what hidden fields exist, how CSRF tokens are handled, how to submit multi-step forms` — so the scanner can exercise them properly.
+- Define a list of form field custom values to be used for submitting HTML forms during crawling.
+- Useful for forms with specific input requirements (eg. 4-digit PINs, required Fields)
+
 
 ## 9. Malware Monitoring:
 - Detects the injected scripts, malware based on Behaviour & signatures on the web page and send Alerts via Emails.
+- Available for external sites only

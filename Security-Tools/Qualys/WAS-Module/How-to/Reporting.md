@@ -9,14 +9,17 @@ Scan Report (Shows Results of any scans for a single web Application)
 
 
 ## 3. Types of Reports:
-1. Web Application Report:
+
+### 1. Web Application Report:
+- `Detailed report of the aggregated detections.`
 - Shows Security status of one or more of your web applications.
 
-2. Scan Report:
-- Shows results of any number of scans for a single web application.
+### 2. Scan Report:
+- `Detailed report for the latest scan` performed for the selected web application.
 
-3. Scorecard Report:
-- to monitor the performance of the various teams incharge of the remediation.
+### 3. Scorecard Report:
+- Overall scorecard with high level numbers and graphs.
+- To monitor the performance of the various teams incharge of the remediation.
 
-4. Catalog Report:
-Shows Web Applications discovered by Map/Discovery/vulnerability/WAS scans in your account.
+### 4. Catalog Report:
+- Shows Web Services discovered by completed Map/Discovery/vulnerability/WAS scans in your account.

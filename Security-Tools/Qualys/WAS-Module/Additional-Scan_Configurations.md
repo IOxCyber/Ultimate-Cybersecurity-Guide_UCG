@@ -54,9 +54,10 @@ eg. http://www.example.com/products/prod[1-99].html
 - Tell the scanner which URI Components to be tested.
 - The scanner will fuzz the URI Path components only if defined.
 
-eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
+Syntex.
+http://www.abc/query-parameter1/{query-value1}/query-parameter2/{query-value2}/query-parameter3/{query-value3}
 
-http://www.abc/query-parameter/{issue}/section/{section}/article/{article
+eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
 
 ## 8. Form Training:
 - A process where `WAS learns how forms behave in your application & how to fill them, what hidden fields exist, how CSRF tokens are handled, how to submit multi-step forms` — so the scanner can exercise them properly.

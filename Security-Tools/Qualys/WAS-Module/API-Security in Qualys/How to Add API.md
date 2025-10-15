@@ -6,6 +6,8 @@ TAS > APIs > New API > Basic Info along with API Endpoint Defination (Swagger UR
 
 
 ## Run the scan: API > Vulnerability Scan/Compliance Scans
-- Once SCANS completed: API > Collections or Endpoints.
+- Once SCANS completed: API > Collections or Endpoints & review report/findings.
+
+
 
 

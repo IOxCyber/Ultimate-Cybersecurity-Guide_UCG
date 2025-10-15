@@ -35,7 +35,7 @@
 
 
 ## 4. Set Up Exclusion Lists
-- Controls which URLs/parameters the scanner should skip (exclude) or only scan (allow list). 
+- Controls which URLs the scanner should skip (exclude list) or only scan (allow list). 
 - By Using regex or explicit URLs.
 
 ## 5. Default DNS Override:

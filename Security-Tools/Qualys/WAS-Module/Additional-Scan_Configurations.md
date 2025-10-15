@@ -45,17 +45,18 @@
 - If there is no public DNS available for Staging, UAT/TEST environments.
 
 ## 6. Redundant Links:
-- Tell the crawler that certain URL patterns are duplicates or redundant so it avoids repeated crawling of similar pages that create noise and duplicate findings.
+- Tell `the crawler that certain URL patterns are duplicates or redundant so it avoids repeated crawling` of similar pages that create noise and duplicate findings.
 - Links can be specify as Regex to match a list of links.
 
 eg. http://www.example.com/products/prod[1-99].html
 
 ## 7. Path Fuzzing Rules:
-- Supply wordlists and rules to brute-force hidden files/directories and endpoints in {Url Rewriting} to perform fault injection tests (SQLi, XSS etc)
+- Tell the scanner which URI Components to be tested.
+- The scanner will fuzz the URI Path components only if defined.
 
 eg. http://www.abc/issue/{issue}/section/{section}/article/{article}
-- Wordlist: admin, backup.zip, config.php, .git/, api/v1/login
-- Template: /api/v1/{entity}/{id} where entity = users, orders and id = 1..100
+
+http://www.abc/query-parameter/{issue}/section/{section}/article/{article
 
 ## 8. Form Training:
 - A process where `WAS learns how forms behave in your application & how to fill them, what hidden fields exist, how CSRF tokens are handled, how to submit multi-step forms` — so the scanner can exercise them properly.

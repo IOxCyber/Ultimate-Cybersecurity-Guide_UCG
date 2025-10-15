@@ -6,6 +6,7 @@ TAS > APIs > New API > Basic Info along with API Endpoint Defination (Swagger v3
 
 
 ## Run the scan: API > Vulnerability Scan/Compliance Scans
+- Check status in `Scans` tab.
 - Once SCANS completed: API > Collections or Endpoints & review report/findings.
 
 

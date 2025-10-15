@@ -25,6 +25,7 @@ Scan Report (Shows Results of any scans for a single web Application)
 ### 3. Scorecard Report:
 - Presents an `interactive view of the results of the selected web application.`
 - By default, the scorecard report includes all the web applications with detected vulnerabilities. (filter out by certain web app by tags)
+- `High level details and statistics of multiple web apps.`
 
 
 ### 4. Catalog Report:

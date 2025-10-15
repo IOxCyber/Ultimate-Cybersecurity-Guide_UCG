@@ -35,8 +35,10 @@
 
 
 ## 4. Set Up Exclusion Lists
-- Controls which URLs the scanner should skip (exclude list) or only scan (allow list). 
+- Controls which URLs the scanner should skip (exclude list eg. Admin, Payment Page) or only scan (allow list).
 - By Using regex or explicit URLs.
+- Post Data Exclude List (Stops WAS from submitting forms on sensitive pages eg. Contact US)
+
 
 ## 5. Default DNS Override:
 - Make WAS resolve a host to a different IP than public DNS (overrides DNS resolution for the scan).

@@ -24,7 +24,7 @@ Host/Virtual Machine
 Physical Infrastructure
 ```
 
-- Vulnerabilities eg. Container escape, using privileged user, 
+- Vulnerabilities eg. Container escape, running containers using privileged user account.
 
 > Key Points: Patching and vulnerability remediation must be done on images not on containers.
 

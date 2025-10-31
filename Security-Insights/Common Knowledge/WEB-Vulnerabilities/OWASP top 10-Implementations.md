@@ -21,6 +21,9 @@ print(f"Salt (hex): {salt.hex()}")
 print(f"Secure Hash (hex): {secure_hash.hex()}")
 ```
 
+### Secure Algorithms:
+- SHA-1 (Secure Hash Algorithm-1), and the
+SHA-2 family of hash algorithms: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256.
 
 
 ## 3. 

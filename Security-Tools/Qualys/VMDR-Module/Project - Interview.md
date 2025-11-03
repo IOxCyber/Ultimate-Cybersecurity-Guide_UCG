@@ -17,3 +17,5 @@
 14. what encryption used when share data from Qualys agent to Qualys UI?
 15. Auth and Unauth Scans?
 16. Why IP based and Agent based scan findings are different?
+
+17. What's false positives and False negative findings?

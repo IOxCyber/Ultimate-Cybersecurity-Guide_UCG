@@ -28,6 +28,10 @@ Essential learning devs guide useful in CyberSec. [See Also](https://github.com/
 - Android 
 - iOS 
 
+## SAST/SCA:
+- Software Composition Analysis (SCA)[Click](https://github.com/IOxCyber/CyberWeb-Concepts/tree/main/DevSecOps)
+
+
 ---
 ---
 

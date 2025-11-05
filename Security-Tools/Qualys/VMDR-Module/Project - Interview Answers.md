@@ -2,7 +2,8 @@
 
 #	Topic	Key Points (Easy Recall)
 
-1. Agent vs IP Scan	• IP-based → static IPs, servers<br>• Agent-based → laptops, roaming endpoints<br>✅ IP = scheduled, Agent = continuous	
+1. Agent vs IP Scan:
+• IP-based → static IPs, servers<br>• Agent-based → laptops, roaming endpoints<br>✅ IP = scheduled, Agent = continuous	
 2. Scanner Setup	• Download OVA → Deploy (VMware/Hyper-V)<br>• Activate in Qualys UI → Verify via diagnostics	
 3. QGS (Gateway Service)	• Proxy b/w agents & Qualys Cloud<br>• Caches, filters & encrypts traffic (port 443)<br>• Used in restricted networks	
 4. Required Ports	Linux: 22 (SSH, sudo user)<br>Windows: 445 (SMBv2), 135 (WMI), NTLMv2<br>Both: 443 to Qualys Cloud	

@@ -14,7 +14,7 @@
 5. Threat Types:
 - Spoofing (Authenticity)
 - Tampering (Integrity)
-- Repudiation (Non-Repudiability)
+- Repudiation (Denying of action)
 - Information Disclosure (Confidentiality)
 - DoS (Availablity)
 - Elevation of Privilege (Authz)

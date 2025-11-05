@@ -53,4 +53,22 @@
 
 
 
+🧩 Hotfix vs Patching in Vulnerability Management
+
+Term	What (Purpose)	Why (Use Case)	Example	Extras / Relation
+
+Hotfix	A temporary, quick fix for a specific issue or security bug	Immediate mitigation without full testing cycle	Microsoft releases KB5015807 to fix a specific Windows kernel vuln	- Emergency fix<br>- Often manually applied<br>- May be replaced by later cumulative patch
+Patch	A permanent, tested update addressing one or more vulnerabilities	Regular, structured fix included in vendor patch cycle	Monthly “Patch Tuesday” updates from Microsoft	- Includes bug fixes, enhancements<br>- Tested & versioned before release
+
+
+
 ---
+
+⚙️ VM (Vulnerability Management) Context
+
+Aspect	Explanation
+
+Detection	Qualys identifies missing hotfixes/patches using QIDs (e.g., QID 105314: Microsoft KB missing)
+Prioritization	High-risk vulnerabilities (e.g., exploited in wild) may trigger hotfix deployment first
+Lifecycle	Hotfix → tested → merged into next patch → deployed via WSUS/SCCM or config management tool
+Tracking	VM teams verify closure by rescanning — if QID still appears → patch/hotfix didn’t apply correctly.

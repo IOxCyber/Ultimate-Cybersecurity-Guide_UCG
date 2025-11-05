@@ -9,4 +9,15 @@
 
 ## 2. Attacker Centric:
 - AKA Security Centric
-- Create a list of Threat actors & how they can affect the 
+- Create a list of Threat actors & how they can affect the application.
+- Brainstorming, Overlooks technical threats.
+
+## 3. Application Centric:
+- Focus on Application
+- Deep understanding of the App & it's components.
+- Assess Users
+
+### Types:
+1. STRIDE (6 Categories i.e Spoofing, Tempering, Repudiation, Information Disclosure, DoS, Elevation of Privilege)
+2. OWASP Top 10
+

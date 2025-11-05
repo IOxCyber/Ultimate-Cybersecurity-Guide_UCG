@@ -1,12 +1,12 @@
 ## 1. Asset Centric:
 - Focus on all assets which need to be protected.
 - Server, Email DB, Account Creds, List out all assets.
-- Asset components as well, data flows etc.
+- Asset components as well, data flows within assets/network.
 
 ### Types: Method, Process, Strength, Weaknesses.
 1. PASTA (Process For Attack Simulation and threat Analysis) - 7 steps, risk centric.
 - Simulating real world attack scenarios.
-2. TRIKE (Open source, Risk mgmt focused, complex)
+2. TRIKE (Open source methodology, Risk mgmt focused, complex) includes STRIDE,DREAD.
 3. OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)
 4. DREAD (Damage potential, Reproducibility, Exploitability, Affected users, Discoverability)
 

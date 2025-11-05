@@ -1,4 +1,5 @@
-1. Dynamic Threat Analysis, takes asset centric approach.
+1. PASTA: Dynamic Threat Analysis, takes asset centric approach.
+
 2. Stages: 7 Steps
 1.Define Objectives,
 2. Define Technical Scope,
@@ -7,4 +8,7 @@
 5. Vulnerabilities & Weakness analysis
 6. Attack Analysis (Maps attacks to vulns)
 7. Risk & Impact Analysis
+
+Outcome:
+- A comprehensive quantitative, qualitative risk repoyfor mgmt decision making.
 

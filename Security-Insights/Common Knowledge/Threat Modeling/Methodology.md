@@ -5,12 +5,19 @@
 
 ### Types: Method, Process, Strength, Weaknesses.
 1. PASTA (Process For Attack Simulation and threat Analysis) - 7 steps, risk centric.
+- Simulating real world attack scenarios.
 2. TRIKE (Open source, Risk mgmt focused, complex)
+3. OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)
+4. DREAD (Damage potential, Reproducibility, Exploitability, Affected users, Discoverability)
 
 ## 2. Attacker Centric:
 - AKA Security Centric
 - Create a list of Threat actors & how they can affect the application.
 - Brainstorming, Overlooks technical threats.
+- Moreover Human prone approach
+### Types:
+1. VAST (Visual, Agile, and Simple Threat modeling)
+2. Security Decision Trees (Brainstorming)
 
 ## 3. Application Centric:
 - Focus on Application
@@ -19,5 +26,6 @@
 
 ### Types:
 1. STRIDE (6 Categories i.e Spoofing, Tempering, Repudiation, Information Disclosure, DoS, Elevation of Privilege)
-2. OWASP Top 10
+2. LINDDUN (Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance) - Privacy Focused
+3. OWASP Top 10 is a Threat Catalogue (reference only, not a Threat modeling type.
 

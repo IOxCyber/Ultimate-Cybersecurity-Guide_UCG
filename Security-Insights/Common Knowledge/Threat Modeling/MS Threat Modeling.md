@@ -1,7 +1,8 @@
-- Implement STRIDE methodology.
-
-💻 Overview of Microsoft Threat Modeling (MTM)
-The Microsoft Threat Modeling approach is primarily facilitated by the Microsoft Threat Modeling Tool (MTMT) and is fundamentally based on the STRIDE methodology. It is a highly Application/Software-Centric method used to identify design-level security flaws early in the development lifecycle.
+## Overview of Microsoft Threat Modeling (MTM):
+- The Microsoft Threat Modeling approach is primarily facilitated by the Microsoft Threat Modeling Tool (MTMT).
+- It is fundamentally based on the STRIDE methodology.
+- It is a highly Application/Software-Centric method used to identify design-level security flaws early in the development lifecycle.
+.
 1. Core Focus & Purpose
  * Focus: Identifying security threats within the design and architecture of a software application.
  * Goal: To help designers and developers create a visual representation of their system, enumerate potential threats, and derive appropriate mitigations before code is written.
@@ -38,4 +39,3 @@ The process you outlined is a robust representation of the steps followed when u
 | Systematic Coverage: STRIDE ensures a comprehensive look at common technical threat categories. | Technical Focus: Primarily targets design and code flaws, often neglecting broader organizational, human, or physical risks. |
 | Early Integration: Encourages security thinking early in the design phase, making fixes cheaper and easier. | Diagram Dependency: The quality of the threat model is heavily reliant on the accuracy and completeness of the DFD. |
 | Automation: The MTMT automatically generates threats based on the DFD components and trust boundaries. | Limited to Web Apps: While flexible, it is most frequently and successfully applied to web, cloud, and enterprise applications. |
-Would you like to explore a specific example, such as how STRIDE threats are applied to a component like a Data Store?

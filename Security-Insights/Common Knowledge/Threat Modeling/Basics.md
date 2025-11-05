@@ -30,5 +30,3 @@
 - What can go wrong?
 - What are we going to do about it?
 - Did we do a good enough job?
-
-8. 

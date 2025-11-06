@@ -1,4 +1,4 @@
-## 1. EDR:
+## 1. EDR (Endpoint Detection & Response):
 - works on Behaviour based monitoring
 - Monitors Process, File, Registery, PATH, System Files.
 - Can kill malicious processes & Quarantine a file, asset (but only connected with Qualys for analysis)
@@ -14,7 +14,7 @@
 - Correlate data into Events/INC, Threat Hunting.
 
 3. Response & Prevent::
-- Quarantine, Patch or any configuration changes
+- Quarantine, Patch or any configuration changes.
 
 
 

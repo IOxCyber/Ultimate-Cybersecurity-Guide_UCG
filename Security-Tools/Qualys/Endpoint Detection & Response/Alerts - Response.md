@@ -3,6 +3,6 @@
 ## 1. To create an Alert: (Auto)
 > Before creating an Alert, an Action needs to be created.
 ### To create an Action: (what to do)
-- Response > Actions > New Action > Full configuration details (Name, Description) > select action (Sentmd Email via Qualys, Post to Slack, Teams, PagerDuty)
+- Response > Actions > New Action > Full configuration details (Name, Description) > select action (Send Email via Qualys, Post to Slack, Teams, PagerDuty)
 
 - EDR > Response > 

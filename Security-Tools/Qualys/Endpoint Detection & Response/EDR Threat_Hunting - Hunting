@@ -1,0 +1,7 @@
+# Threat Hunting: `Analzing the mal activities`
+- Process of investing sign of malicious activities, anomalies & analysing patterns or events to find threats in the system.
+
+- eg. Unusual network behaviour, app using high resources 
+
+- `EDR > Hunting > Events` > Filter out based on Type (file, registry, network, process)
+- 

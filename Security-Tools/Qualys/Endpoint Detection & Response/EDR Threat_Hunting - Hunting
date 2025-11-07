@@ -4,4 +4,7 @@
 - eg. Unusual network behaviour, app using high resources 
 
 - `EDR > Hunting > Events` > Filter out based on Type (file, registry, network, process)
-- 
+- eg. process.image.path:recycle.bin
+- eg. mitre.attack.tactic.name:"Execution"
+
+> Precreated `Advanced Hunting` queries: can be cloned or run

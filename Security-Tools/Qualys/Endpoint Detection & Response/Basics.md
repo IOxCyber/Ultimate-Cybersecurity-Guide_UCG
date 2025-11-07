@@ -1,3 +1,15 @@
+## User Interface
+- Dashboard: (AntiMalware by default)
+- Detection: (Incidents)
+- Hunting: (Events, Exemption, Advanced Hunting)
+- Assets
+- Response: (Remediation,Activity, Rule Management, Action)
+- Forensics
+- Notification
+- Configuration (profile, asset Configuration, Block list, Exception Rules)
+
+
+
 ## 1. EDR (Endpoint Detection & Response):
 - works on Behaviour based monitoring
 - Monitors Process, File, Registery, PATH, System Files.

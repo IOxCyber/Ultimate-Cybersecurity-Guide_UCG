@@ -13,14 +13,15 @@
 
 ## AWS GuardDuty – Data Sources & Visibility
 
-| **Resource**        | **What GuardDuty Sees** |
-|----------------------|--------------------------|
-| **EC2 Instances**    | Network traffic patterns, API actions (e.g., unauthorized SSH, port scans) |
-| **S3 Buckets**       | Unusual access (e.g., data exfiltration from public IPs, cross-region reads) |
-| **VPCs / Subnets**   | Suspicious inbound/outbound traffic (botnets, crypto mining) |
-| **IAM Users / Roles**| Unusual API activity (e.g., logins from unknown geographies, privilege escalations) |
-| **Lambda Functions** | Suspicious invocations observed via CloudTrail logs |
-| **EKS (Kubernetes)** | Optional – EKS Audit Logs integration for cluster-level detections |
+| **Resource**          | **What GuardDuty Sees** |
+|------------------------|--------------------------|
+| **EC2 Instances**      | Network traffic patterns, API actions (e.g., unauthorized SSH, port scans) |
+| **S3 Buckets**         | Unusual access (e.g., data exfiltration from public IPs, cross-region reads) |
+| **VPCs / Subnets**     | Suspicious inbound/outbound traffic (botnets, crypto mining) |
+| **IAM Users / Roles**  | Unusual API activity (e.g., logins from unknown geographies, privilege escalations) |
+| **Lambda Functions**   | Suspicious invocations observed via CloudTrail logs |
+| **EKS (Kubernetes)**   | Optional – EKS Audit Logs integration for cluster-level detections |
+| **KMS (Key Management Service)** | Unusual key usage patterns (e.g., unexpected Decrypt, DisableKey, or ScheduleKeyDeletion API calls captured in CloudTrail) |
 
 
 ## How the Communication & Data Flow Happens

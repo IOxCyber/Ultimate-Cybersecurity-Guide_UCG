@@ -4,15 +4,10 @@
 > Enable GuardDuty → N/w Metadata auto-taps into VPC, CloudTrail, DNS telemetry → Analyzes → Alerts on suspicious activity.
 
 ```
-AWS GuardDuty is a managed threat detection service that continuously monitors your AWS environment by analyzing:
-
-CloudTrail logs (API calls & user activity)
-
-VPC Flow Logs (network traffic metadata)
-
-DNS query logs
-
-Threat intel feeds (malicious IPs, domains, file hashes)
+1. CloudTrail logs (API calls & user activity)
+2. VPC Flow Logs (network traffic metadata)
+3. DNS query logs
+4. Threat intel feeds (malicious IPs, domains, file hashes)
 ```
 
 

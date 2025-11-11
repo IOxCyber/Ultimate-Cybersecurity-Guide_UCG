@@ -45,7 +45,7 @@ EC2 start, S3 access, IAM login, etc.
 4. DNS Logs capture domain resolutions by EC2 or other workloads.
 
 
-5. GuardDuty consumes copies of these logs internally (no agents, no storage setup).
+> 5. GuardDuty consumes copies of these logs internally (no agents, no storage setup).
 
 
 6. It analyzes them with machine learning & threat intel feeds.

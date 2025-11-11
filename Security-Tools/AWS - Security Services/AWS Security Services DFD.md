@@ -1,3 +1,6 @@
+## Data Flow Diagram:
+
+```
 [ CloudTrail / VPC Flow / DNS Logs ]  
              │  
              ▼  
@@ -20,3 +23,4 @@
 ▼             ▼             ▼  
 (Email/SMS   (Automated   (Patching / Isolation  
 Alerts)     Response)      /SG changes)
+```

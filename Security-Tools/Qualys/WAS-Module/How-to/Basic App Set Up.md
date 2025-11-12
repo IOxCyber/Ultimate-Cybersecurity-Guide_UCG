@@ -7,7 +7,7 @@
 - Custom attributes (name/value) can be defined for your web app to easy filter out your web app.
 - Apply Tags
 
-## 2. Define Crawl Settings: 
+## 2. Define Crawl Settings: [Click](https://github.com/IOxCyber/Ultimate-Cybersecurity-Guide_UCG/blob/main/Security-Tools/Qualys/WAS-Module/Crawl%20%26%20Detection%20Scope.md)
 - `what level needs to be crawled/test in the site.`
 - Include `robot.txt` if you exclude the certain page crawling in the site.
 

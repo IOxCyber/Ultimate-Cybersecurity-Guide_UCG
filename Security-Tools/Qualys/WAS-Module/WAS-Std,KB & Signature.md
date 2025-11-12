@@ -1,4 +1,4 @@
-## AppSec Module:
+## AppSec Reference Standards:
 - Use to assess Web Apps, API based on OWASP top 10 Security checks, web malware detection and PII exposure detection.
 - Used in Asset Discovery, Risk Assessments, Remediation response etc.
 

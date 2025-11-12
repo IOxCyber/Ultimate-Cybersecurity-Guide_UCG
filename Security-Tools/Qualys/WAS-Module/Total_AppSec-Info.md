@@ -9,13 +9,14 @@
 
 ## Knowledge Base: 
 - `Qualys managed Repo containing Vuln signature`
-- Reference to `OWASP top 10, WASC (Web AppSec Consortium) & CWE (Common Weakness Enumeration)
+- References to `OWASP top 10, WASC (Web AppSec Consortium) & CWE (Common Weakness Enumeration)
 - eg. `vulnDef.category:"web application"`
 - Information: Remote (No Auth Needed)
 
 ## Custom Signature:
+- Custom Signs `vulnDef.custom:true`
 - `Allow organizations to create their own detection rules`
 - Required for Custom Signature: `Basic Info, Threat, Impact, Solution & enter a Valid Signature`
-- Use to extend the detection logic.
+- Use to extend the detection logic, 0-Day vuln
 - Custom Signature ID starts with `655`
 - Web Application detection ID starts with `150`

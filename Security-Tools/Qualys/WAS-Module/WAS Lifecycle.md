@@ -1,5 +1,5 @@
 ## 1. WAS LIFECYCLE:
-> Define App > Discovery Scan > Vulnerability Scan > Report
+> Define App > Discovery Scan (i.e Crawling) > Vulnerability Scan > Report Vulns
 
 ## 2. WAS Workflow:
 - The workflow for analyzing a Web application involves five simple Steps: 

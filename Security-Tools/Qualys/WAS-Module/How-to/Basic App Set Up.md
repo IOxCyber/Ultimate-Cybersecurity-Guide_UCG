@@ -1,13 +1,11 @@
 # Basic App Set Up::
 
-## 1. Define Web App Entry Point:
+## 1. Basic Information: `Define Web App Entry Point`
 - Qualys > Web App Security > WAS > Web App > New > Add `URL` eg. `protocol://hostname:Port/PATH to Directory`
 - Also can be used `FQDN or IP Address`
-- <img width="425" height="101" alt="image" src="https://github.com/user-attachments/assets/71796be2-327a-404a-97a7-408241bdd934" />
-
-> Link: Total number of crawled Links from the page.
->
-> Integration: Thru Burp, BugCrowd, Plugins etc
+- <img width="425" height="101" alt="image" src="https://github.com/user-attachments/assets/71796be2-327a-404a-97a7-408241bdd934"/>
+- Custom attributes (name/value) can be defined for your web app to easy filter out your web app.
+- Apply Tags
 
 ## 2. Define Crawl Settings: 
 - `what level needs to be crawled/test in the site.`

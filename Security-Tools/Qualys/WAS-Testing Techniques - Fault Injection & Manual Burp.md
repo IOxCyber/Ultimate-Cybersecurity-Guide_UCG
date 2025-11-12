@@ -9,11 +9,11 @@
 - Discovers 80-85% of Web App Vulnerabilities.
 
 ### Once the scan begins, Qualys performs a two-phase process:
-1) Crawling (Discovery phase): 
+## 1. Crawling (Discovery phase): 
 - The scanner first crawls your web application to map its pages, links, forms, and other components. 
 - This provides the engine with a complete inventory of potential injection points.
 
-2) Vulnerability Testing (Fault Injection phase): 
+## 2. Vulnerability Testing (Fault Injection phase): 
 - After crawling, the scanner inserts specially crafted "faults"—or malicious payloads—into the discovered input fields, forms, and parameters. 
 - The scanner then observes and analyzes the application's response to identify vulnerabilities. 
 

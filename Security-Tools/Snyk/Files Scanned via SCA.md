@@ -50,7 +50,7 @@
 
 If your project has multiple components (code + Dockerfile + IaC), scan everything at once:
 
-```bash
+```
 snyk test --all-projects
 
 This scans:
@@ -60,7 +60,7 @@ requirements.txt → App dependencies
 Dockerfile → Base image vulnerabilities
 
 .tf / .yaml → Infrastructure configurations
-
+```
 
 
 ## Quick Reference::

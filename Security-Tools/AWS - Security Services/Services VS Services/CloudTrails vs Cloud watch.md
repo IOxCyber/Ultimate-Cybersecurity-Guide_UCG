@@ -1,4 +1,6 @@
-## CloudTrail — Monitors (corrected)
+## AWS CloudTrail: `Any API calls for AWS services`
+
+### Monitors:
 
 - **Management Events:** API calls that manage resources (e.g., `RunInstances`, `StopInstances`, `CreateBucket`, `PutBucketPolicy`, `CreateKey`, `DisableKey` for KMS).
 
@@ -14,9 +16,9 @@
 
 
 
-## ⚙️ Amazon CloudWatch – What It Monitors
+## ⚙️ AWS CloudWatch:
 
-CloudWatch tracks performance, health, and logs across AWS resources — the “pulse monitor” of AWS.
+- `tracks performance, health, and logs across AWS resources — the “pulse monitor” of AWS.`
 
 ### Monitors:
 

@@ -16,7 +16,7 @@ Understanding Snyk prerequisites for both modules makes setup smoother before in
 
 ---
 
-## 🧠 2️⃣ For SAST (Snyk Code)
+## 🧠 2️⃣ For SAST (Snyk Code) - Actual Source Codes::
 
 | Requirement | Description |
 |--------------|--------------|
@@ -27,7 +27,7 @@ Understanding Snyk prerequisites for both modules makes setup smoother before in
 
 ---
 
-## 🧩 3️⃣ For SCA (Snyk Open Source)
+## 🧩 3️⃣ For SCA (Snyk Open Source) - Manifest File, Dependency Files::
 
 | Requirement | Description |
 |--------------|--------------|

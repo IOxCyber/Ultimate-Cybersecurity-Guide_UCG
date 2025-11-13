@@ -66,6 +66,8 @@ Dockerfile → Base image vulnerabilities
 
 ---
 
+## Quick Reference::
+
 | Type                    | What File Snyk Needs                          |
 |--------------------------|----------------------------------------------|
 | App-level Dependencies   | requirements.txt, package.json, pom.xml, etc. |

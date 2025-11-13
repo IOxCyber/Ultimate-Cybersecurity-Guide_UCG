@@ -45,7 +45,6 @@
 | **Container Scanning** | Docker images | Detects vulnerable OS packages (e.g., Ubuntu libs inside images). |
 | **IaC Scanning** | Terraform, Kubernetes YAML | Finds misconfigurations like open ports, weak IAM roles, public buckets. |
 
----
 
 ## ⚡ Pro Tip
 
@@ -63,8 +62,6 @@ Dockerfile → Base image vulnerabilities
 .tf / .yaml → Infrastructure configurations
 
 
-
----
 
 ## Quick Reference::
 

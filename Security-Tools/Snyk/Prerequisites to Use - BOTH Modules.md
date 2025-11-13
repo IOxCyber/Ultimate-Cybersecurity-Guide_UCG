@@ -36,21 +36,3 @@ Understanding Snyk prerequisites for both modules makes setup smoother before in
 | **Commands** | Local scan → `snyk test` <br> Upload to UI → `snyk monitor` |
 
 ---
-
-
-How to Access Each Type in Snyk
-
-Purpose	CLI Command	Dashboard Location
-
-SCA (Dependency Scan)	snyk test → local <br> snyk monitor → upload to UI	Appears under Open Source tab
-SAST (Code Scan)	
-
-## ☁️ 4️⃣ Optional (for CI/CD Integration)
-
-| Requirement | Description |
-|--------------|--------------|
-| **Access Token** | Needed for **non-interactive CI/CD scans** (`snyk auth` won’t work in headless mode). |
-| **Org ID (optional)** | Specify if working under multiple Snyk organizations. |
-| **Connected GitHub/GitLab Repo** | Enables **automatic imports & continuous scanning** in Snyk UI. |
-
----

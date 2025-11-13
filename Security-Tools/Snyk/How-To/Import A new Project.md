@@ -1,6 +1,7 @@
-1. The Project can be uploaded via GitHub repositories. (personal or Organisation Repos)
+## 1. Via GitHub Uploads:
+- The Project can be uploaded via GitHub repositories. (personal or Organisation Repos)
 
-2. From CLI via IDE (integrate via Extension)
+## 2. From CLI via IDE (integrate via Extension)
 - `Snyk Security` extension
 
 

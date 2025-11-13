@@ -1,18 +1,14 @@
-## ⚡ AWS CloudTrail – What It Monitors
+## CloudTrail — Monitors (corrected)
 
-- CloudTrail tracks API activity across all AWS services, focusing on who did what, when, and from where.
-- Think of it as the “action logger” of AWS.
+- **Management Events:** API calls that manage resources (e.g., `RunInstances`, `StopInstances`, `CreateBucket`, `PutBucketPolicy`, `CreateKey`, `DisableKey` for KMS).
 
-### Monitors:
+- **Data Events:** Resource-data operations (e.g., `GetObject` / `PutObject` for S3, `Invoke` for Lambda). Note: data events are not enabled by default and may incur extra charges.
 
-- Management Events: API calls to manage resources (EC2 start/stop, IAM policy change, S3 bucket create/delete).
+- **Services covered:** CloudTrail logs API activity for nearly every AWS service that uses APIs — e.g., **EC2, S3, VPC, IAM, STS, CloudFormation, ECR, KMS**, etc.
 
-- Data Events: Access-level actions (GetObject, PutObject in S3; InvokeFunction in Lambda).
+- **Sources:** Console, CLI, SDKs, and service-to-service API calls.
 
-> CloudFormation, STS, IAM, KMS, ECR, GuardDuty, Config — basically every service that uses AWS APIs.
-
-- Console + CLI + SDK activity (any user or role).
-
+- **Integration:** GuardDuty consumes CloudTrail logs (including KMS events) for threat detection; logs can be archived to S3 or queried via Athena / CloudWatch for investigations.
 
 🧩 Analogy: Like Qualys or Sentinel audit logs — captures every “who touched what” action.
 

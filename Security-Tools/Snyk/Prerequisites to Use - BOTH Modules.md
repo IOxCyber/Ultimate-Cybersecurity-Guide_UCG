@@ -23,7 +23,7 @@ Understanding Snyk prerequisites for both modules makes setup smoother before in
 | **Language Support** | Works best with **Python, JavaScript, TypeScript, Java, C#, PHP, Go, Ruby.** |
 | **Readable Source Code** | Needs actual `.py`, `.js`, `.java`, etc. — not compiled artifacts. |
 | **No Manifest Needed** | SAST scans your source code directly. |
-| **CLI or IDE Plugin** | Run via CLI: `snyk code test` or use IDE plugin (VS Code / JetBrains). |
+| **CLI or IDE Plugin** | Run via CLI: snyk code test > To upload: snyk code test --report --project-name="app" → Appears under Code tab in UI (VS Code / JetBrains). |
 
 ---
 
@@ -36,6 +36,14 @@ Understanding Snyk prerequisites for both modules makes setup smoother before in
 | **Commands** | Local scan → `snyk test` <br> Upload to UI → `snyk monitor` |
 
 ---
+
+
+How to Access Each Type in Snyk
+
+Purpose	CLI Command	Dashboard Location
+
+SCA (Dependency Scan)	snyk test → local <br> snyk monitor → upload to UI	Appears under Open Source tab
+SAST (Code Scan)	
 
 ## ☁️ 4️⃣ Optional (for CI/CD Integration)
 

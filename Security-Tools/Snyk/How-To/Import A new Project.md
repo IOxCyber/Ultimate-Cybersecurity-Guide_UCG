@@ -5,7 +5,8 @@
 - `Snyk Security` extension
 
 
-3. Process:
+
+## 3. Process:
 Install Snyk Security Extension > Synk Auth > Snyk test (only SCA) > Snyk monitor
 
 > Snyk code test (SAST, full supported files) > Snyk Monitor <Project Name> (Upload findings to Snyk Dashboard)

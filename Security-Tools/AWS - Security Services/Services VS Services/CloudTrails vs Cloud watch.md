@@ -1,5 +1,3 @@
----
-
 ## ⚡ AWS CloudTrail – What It Monitors
 
 - CloudTrail tracks API activity across all AWS services, focusing on who did what, when, and from where.
@@ -19,7 +17,6 @@
 🧩 Analogy: Like Qualys or Sentinel audit logs — captures every “who touched what” action.
 
 
----
 
 ## ⚙️ Amazon CloudWatch – What It Monitors
 

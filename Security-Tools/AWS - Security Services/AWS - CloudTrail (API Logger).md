@@ -16,7 +16,13 @@
 
 1. Management Events: Actions on AWS resources (e.g., EC2 creation, S3 bucket deletion).
 
-2. Data Events: Object-level operations (e.g., GetObject, PutObject in S3, Lambda Invoke).
+2. Data Events: Object-level operations on resources (e.g., GetObject, PutObject in S3, Lambda Invoke).
+
+3. Insights Events:
+- Identify unusual activity, errors, or user behaviour in the account.
+
+4. Network Activity Events:
+- provide information about resources operations performed on a resource within a virtual private cloud endpoint.
 
 
 > Agentless: Yes, collects events natively (no installation needed).

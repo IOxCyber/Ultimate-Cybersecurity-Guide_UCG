@@ -3,7 +3,7 @@ Amazon Inspector is an Amazon Web Services (AWS) security service that continuou
 
 Integrate with AWS Security Hub and Amazon EventBridge to automate workflows, ticket routing, and remediation.
 
-Amazon Inspector stores your active findings until it detects that they are remediated, deleted after 30 days if resolved. States (Active, Supressed(excluded as per matching criteria), Closed)
+Amazon Inspector stores your active findings until it detects that they are remediated, deleted after 30 days if resolved. States (Active, Supressed(excluded as per matching criteria via Rules), Closed)
 
 Support compliance requirements and best practices for the NIST Cybersecurity Framework (CSF), Payment Card Industry Data Security Standard (PCI DSS), and other regulations with Amazon Inspector scans. All our compliance-related information and reports can be found on AWS Artifact
 

@@ -54,3 +54,8 @@ Foundational Logs:
 
 ## Usage:
 - The total daily cost estimation of the usage of the Guard duty.
+
+## Suspend/Disabled GuardDuty:
+- Settings > Suspend (no longer monitor the AWS env.)
+> Existing findings will be there, no new findings will be generated.
+

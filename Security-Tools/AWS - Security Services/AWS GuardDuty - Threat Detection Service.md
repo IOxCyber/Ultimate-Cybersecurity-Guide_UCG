@@ -1,5 +1,5 @@
 ## AWS Guard Duty: `Threat Detection Service`
-- Monitor AWS Env. by analysing the CloudTrail logs, VPC flow logs, DNS queries, Mal IP, Domain, File Hashes etc.
+- Monitor AWS Env. by analysing the CloudTrail logs, VPC flow logs, DNS logs queries, S3 Data Events, Malicious IP, Domain, File Hashes etc.
 
 > Enable GuardDuty → Network Metadata auto-taps into VPC, CloudTrail, DNS telemetry → Analyzes → Alerts on suspicious activity.
 
@@ -29,7 +29,7 @@ Foundational Logs:
 - Optional: S3 protection, EKS protection, Malware Protection, RDS protection, Lambda Protection
 - Foundational (Required & can't be disabled) ie. Cloudtrail, VPC network flow, DNS Query logs
 
-> AWS detective, used to detect the threat/Malware/anomalies in the AWS resources i.e EBS volume, EC2 etc
+> AWS Detective (Root Cause Service), used to detect the threat/Malware/anomalies in the AWS resources i.e EBS volume, EC2, S3. Eg. backdoor, unauthorised access, crypto mineing, unauth Portscans etc
 
 ## How the Communication & Data Flow Happens
 
@@ -45,6 +45,12 @@ Foundational Logs:
 5. GuardDuty consumes copies of these logs internally.
 > (no agents, no storage setup for GuardDuty deployment)
 
-6. It analyzes them with machine learning & threat intel feeds.
+6. It analyzes them with machine learning & threat intel feeds, filter out with severity (Criteria, Medium, High, Low), finding type, Resource url
 
 7. If anomalies or known threats are found → Findings generated → sent to Security Hub/EventBridge/SNS.
+
+> A finding can be suppressed (hidden/archives from the detection)
+
+
+## Usage:
+- The total daily cost estimation of the usage of the Guard duty.

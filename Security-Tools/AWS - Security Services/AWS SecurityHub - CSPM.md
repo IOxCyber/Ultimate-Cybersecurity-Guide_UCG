@@ -10,13 +10,13 @@
 
 ## Modules:
 - Summary: All findings with Security Score, Resource, Region
-- Controls: 
+- Controls: ??
 - Security Standards: Compliance with industry standards, Control failed,passed, score etc
-- Insights
-- Findings
+- Insights: Indepth info about findings
+- Findings: Overview of findings
 - Integration: AWS + 3rd party integration for findins ingestion (60+ currently)
 - Automations: To Suppress findings if required by creating Rule template or Custom Rules > Action etc.
-- Settings: 
+- Settings: Changes to make in SecurityHub
 
 
 

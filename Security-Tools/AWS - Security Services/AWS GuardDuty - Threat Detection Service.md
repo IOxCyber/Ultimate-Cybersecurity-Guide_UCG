@@ -26,7 +26,7 @@ Foundational Logs:
 
 
 ## Protection Plans for GuardDuty:
-- Optional: S3 protection, EKS protection, Malware Protection, RDS protection, Lambda Protection
+- Optional: S3 protection, EKS protection, Malware Protection, RDS protection, Lambda Protection (Enabled by Default)
 - Foundational (Required & can't be disabled) ie. Cloudtrail, VPC network flow, DNS Query logs
 
 > AWS Detective (Root Cause Service), used to detect the threat/Malware/anomalies in the AWS resources i.e EBS volume, EC2, S3. Eg. backdoor, unauthorised access, crypto mineing, unauth Portscans etc

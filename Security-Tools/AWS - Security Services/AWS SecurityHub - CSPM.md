@@ -15,8 +15,9 @@
 - Insights
 - Findings
 - Integration
-- Automations
-- Settings
+- Automations: To Suppress findings if required by creating Rule template or Custom Rules.
+- Settings: 
 
 
-- 
+
+

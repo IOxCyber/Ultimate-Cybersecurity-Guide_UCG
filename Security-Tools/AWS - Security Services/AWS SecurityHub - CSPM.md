@@ -14,8 +14,8 @@
 - Security Standards: Compliance with industry standards, Control failed,passed, score etc
 - Insights
 - Findings
-- Integration
-- Automations: To Suppress findings if required by creating Rule template or Custom Rules.
+- Integration: AWS + 3rd party integration for findins ingestion (60+ currently)
+- Automations: To Suppress findings if required by creating Rule template or Custom Rules > Action etc.
 - Settings: 
 
 

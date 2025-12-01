@@ -54,7 +54,9 @@
 17. False Pos/Neg:
 - FP = shown but not real<br>• FN = missed but real<br>• Fix: Auth scans + manual validation	
 
-18. 
+18. Scanner = For IP-based scans → Uses its OWN TLS tunnel.
+
+19. QGS = For Agent-based scans → Provides a tunnel FOR agents.
 
 ---
 

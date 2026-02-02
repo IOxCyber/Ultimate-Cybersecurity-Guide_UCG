@@ -2,9 +2,12 @@
 
 ---
 ---
-# Resources:
+# Online Resources:
 1. [PortSwigger Academy](https://portswigger.net/)
 2. [Hacksplaining.com](https://hacksplaining.com/)
+3. [Qualys Training](https://www.qualys.com/training)
+4. [Basic Theory Easy](https://cybercloud.guru/)
+5. [Learn Linux Free - Fun Way](https://labex.io/linuxjourney)
 ---
 ---
 

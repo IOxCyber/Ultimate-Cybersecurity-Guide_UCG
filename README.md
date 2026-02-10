@@ -10,6 +10,7 @@
 5. [Learn Linux Free - Fun Way](https://labex.io/linuxjourney)
 ---
 ---
+Just in case the login ID is Username: Channa & Password:PWD@0000.Cool to login to any applicaton mentioned in this Repo.
 
 ## Ultimate-Cybersecurity-Guide (UCG)
 Essential learning devs guide useful in CyberSec. [See Also](https://github.com/IOxCyber/CyberWeb-Concepts/blob/16953015a8102c72b34f90b0d1a430aaf1694ec1/README.md)
